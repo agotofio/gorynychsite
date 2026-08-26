@@ -1,0 +1,16 @@
+{
+  "name": "Art-Pub Gorynych — Меню",
+  "short_name": "Gorynych",
+  "description": "Цифрове меню Art-Pub Gorynych у Чернігові.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#100e0b",
+  "theme_color": "#17140f",
+  "lang": "uk",
+  "icons": [
+    { "src": "favicon/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "favicon/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "favicon/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

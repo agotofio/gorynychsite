@@ -1,0 +1,2001 @@
+{
+  "meta": {
+    "venue": "Art-Pub Gorynych",
+    "city": "Чернігів",
+    "address": "просп. Перемоги, 104",
+    "phone": "+380990639544",
+    "instagram": "https://www.instagram.com/art_pub_gorynych/",
+    "hours": "11:00-22:30",
+    "currency": "грн",
+    "updated": "2026-08-22"
+  },
+  "categories": [
+    {
+      "id": "cold",
+      "name": "Холодні закуски",
+      "note": "тар-тари, сир, риба, дошки",
+      "icon": "snowflake",
+      "type": "food",
+      "items": [
+        {
+          "id": "cold-tartar-z-ialovychyny",
+          "name": "Тартар з яловичини",
+          "description": "Яловичина, тости та соус до подачі.",
+          "weight": "100/60/40 г",
+          "price": "250",
+          "type": "food",
+          "image": "img_0185",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "cold-tartar-z-lososia",
+          "name": "Тартар з лосося",
+          "description": "Лосось у свіжій подачі з тостами.",
+          "weight": "160/100 г",
+          "price": "390",
+          "type": "food",
+          "image": "img_0178",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "cold-asorti-vialenoho-miasa",
+          "name": "Асорті в'яленого м'яса",
+          "description": "Добірка м'ясних закусок до пива.",
+          "weight": "150 г",
+          "price": "260",
+          "type": "food",
+          "image": "img_4886",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "cold-asorti-blahorodnykh-syriv",
+          "name": "Асорті благородних сирів",
+          "description": "Сири з горіхами та медом.",
+          "weight": "150/30 г",
+          "price": "260",
+          "type": "food",
+          "image": "img_0272",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "cold-file-slabosolenoho-lososia",
+          "name": "Філе слабосоленого лосося",
+          "description": "З тостами та вершковим маслом.",
+          "weight": "70/30/40 г",
+          "price": "260",
+          "type": "food",
+          "image": "img_0180",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "cold-oseledets-iz-kartopleiu",
+          "name": "Оселедець із картоплею",
+          "description": "Оселедець, смажена картопля та маринована цибуля.",
+          "weight": "100/100/30 г",
+          "price": "170",
+          "type": "food",
+          "image": "img_5537",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "cold-zakuska-skarb-natsii",
+          "name": "Закуска «Скарб нації»",
+          "description": "Домашня ковбаса, квашена капуста, грінки та соуси.",
+          "weight": "500/50/50 г",
+          "price": "370",
+          "type": "food",
+          "image": "img_3908",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "cold-ovocheva-doshka",
+          "name": "Овочева дошка",
+          "description": "Огірок, помідор, редис, перець та зелень.",
+          "weight": "380 г",
+          "price": "260",
+          "type": "food",
+          "image": "img_3911",
+          "imgW": 960,
+          "imgH": 720
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Салати",
+      "note": "свіжі, теплі, з морепродуктами",
+      "icon": "leaf",
+      "type": "food",
+      "items": [
+        {
+          "id": "salads-teplyi-salat-z-moreproduktamy",
+          "name": "Теплий салат з морепродуктами",
+          "description": "Мікс салату, лосось, восьминіг, мідії, томат та винно-вершковий соус.",
+          "weight": "230 г",
+          "price": "290",
+          "type": "food",
+          "image": "img_2947",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "salads-tsezar-z-krevetkoiu",
+          "name": "Цезар з креветкою",
+          "description": "Мікс салату, королівські креветки, перепелині яйця, чері, пармезан.",
+          "weight": "200 г",
+          "price": "290",
+          "type": "food",
+          "image": "img_2471",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "salads-tsezar-z-kurkoiu-ta-bekonom",
+          "name": "Цезар з куркою та беконом",
+          "description": "Куряче філе, бекон, перепелині яйця, чері, пармезан.",
+          "weight": "200 г",
+          "price": "270",
+          "type": "food",
+          "image": "img_0686",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "salads-teplyi-salat-z-teliatynoiu",
+          "name": "Теплий салат з телятиною",
+          "description": "У азіатському стилі: телятина, огірок, томат, теріякі, кунжут.",
+          "weight": "220 г",
+          "price": "270",
+          "type": "food"
+        },
+        {
+          "id": "salads-miks-salat-z-lososem-ta-parmezanom",
+          "name": "Мікс-салат з лососем та пармезаном",
+          "description": "Мікс салату, слабосолений лосось, пармезан, томати.",
+          "weight": "200 г",
+          "price": "290",
+          "type": "food",
+          "image": "img_1586",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "salads-kobb-salat",
+          "name": "Кобб салат",
+          "description": "Куряче філе, бекон, томати, яйця, дор блю, авокадо.",
+          "weight": "220 г",
+          "price": "290",
+          "type": "food",
+          "image": "img_6902",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "salads-hretskyi",
+          "name": "Грецький",
+          "description": "Огірок, перець, томати, фета, цибуля.",
+          "weight": "230 г",
+          "price": "260",
+          "type": "food",
+          "image": "img_3024",
+          "imgW": 960,
+          "imgH": 720
+        }
+      ]
+    },
+    {
+      "id": "hot-snacks",
+      "name": "Гарячі закуски",
+      "note": "до пива і для столу",
+      "icon": "flame",
+      "type": "food",
+      "items": [
+        {
+          "id": "hot-snacks-korolivski-krevetky-na-hryli",
+          "name": "Королівські креветки на грилі",
+          "description": "Подаються з устричним соусом.",
+          "weight": "140 г",
+          "price": "290",
+          "type": "food",
+          "image": "img_1203",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-moiva-smazhena",
+          "name": "Мойва смажена",
+          "description": "Смажена риба з соусом.",
+          "weight": "170/50 г",
+          "price": "210",
+          "type": "food",
+          "image": "img_5537",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-midii-v-mushliakh-u-vershkovomu-sousi",
+          "name": "Мідії в мушлях у вершковому соусі",
+          "description": "Вершкова подача з лимоном.",
+          "weight": "250/50 г",
+          "price": "260",
+          "type": "food",
+          "image": "img_7362",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-midii-v-soievo-chasnykovomu-sousi",
+          "name": "Мідії в соєво-часниковому соусі",
+          "description": "Пряний соєво-часниковий соус.",
+          "weight": "130 г",
+          "price": "180",
+          "type": "food",
+          "image": "img_0192",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-kuriachi-kryltsia-baffalo",
+          "name": "Курячі крильця «Баффало»",
+          "description": "Гостра класика до пива.",
+          "weight": "250 г",
+          "price": "210",
+          "type": "food",
+          "image": "img_9245",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-kuriachi-kryltsia-v-soievo-medovii-hlazuri",
+          "name": "Курячі крильця в соєво-медовій глазурі",
+          "description": "З гірчичним соусом.",
+          "weight": "250/50 г",
+          "price": "210",
+          "type": "food",
+          "image": "img_9245",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-syrni-palychky",
+          "name": "Сирні палички",
+          "description": "Смажені в сухарях з часниковим соусом.",
+          "weight": "150/50 г",
+          "price": "150",
+          "type": "food",
+          "image": "img_0431",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-shampiniony-fri",
+          "name": "Шампіньйони фрі",
+          "description": "Печериці у хрусткій паніровці.",
+          "weight": "150/50 г",
+          "price": "150",
+          "type": "food",
+          "image": "img_3390",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-vukha-svyniachi",
+          "name": "Вуха свинячі",
+          "description": "У соєво-часниковому соусі.",
+          "weight": "150 г",
+          "price": "170",
+          "type": "food",
+          "image": "img_5570",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-pyvna-doshka",
+          "name": "Пивна дошка",
+          "description": "Сирні палички, печериці фрі, стіпси кальмара, вуха свинячі, сулугуні, грінки, соуси.",
+          "weight": "600/50/50 г",
+          "price": "490",
+          "type": "food",
+          "image": "img_7339",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "hot-snacks-syrnyi-chan-drakona",
+          "name": "Сирний чан Дракона",
+          "description": "Гаряча сирна подача для компанії.",
+          "weight": "550/180 г",
+          "price": "490",
+          "type": "food",
+          "image": "img_6616",
+          "imgW": 960,
+          "imgH": 720
+        }
+      ]
+    },
+    {
+      "id": "boards",
+      "name": "Дошки на компанію",
+      "note": "великі набори",
+      "icon": "board",
+      "type": "food",
+      "items": [
+        {
+          "id": "boards-doshka-velyka",
+          "name": "Дошка Велика",
+          "description": "Шашлик зі свинини, люля-кебаб, реберця, картопля з підчеревиною, лаваш, сулугуні та соуси.",
+          "weight": "2200 г",
+          "price": "1810",
+          "type": "food",
+          "image": "img_8073",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "boards-doshka-mala",
+          "name": "Дошка Мала",
+          "description": "Крила баффало, крила в соєво-медовій глазурі, курячі ковбаски, нюрнберзькі ковбаски, грінки та соуси.",
+          "weight": "1200 г",
+          "price": "950",
+          "type": "food",
+          "image": "img_1662",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "boards-morski-skarby",
+          "name": "Морські скарби",
+          "description": "Лосось, стружка кальмара, кільця восьминога, креветки, мідії, грінки.",
+          "weight": "500 г",
+          "price": "650",
+          "type": "food",
+          "image": "img_4745",
+          "imgW": 720,
+          "imgH": 540
+        },
+        {
+          "id": "boards-doshka-krevetok",
+          "name": "Дошка креветок",
+          "description": "Велика подача креветок з соусами.",
+          "weight": "700/150 г",
+          "price": "1600",
+          "type": "food",
+          "image": "img_4672",
+          "imgW": 960,
+          "imgH": 720
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name": "Перші страви",
+      "note": "300 г",
+      "icon": "bowl",
+      "type": "food",
+      "items": [
+        {
+          "id": "soups-borshch",
+          "name": "Борщ",
+          "description": "Зі сметаною та житніми грінками.",
+          "weight": "300 г",
+          "price": "120",
+          "type": "food",
+          "image": "img_0003",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "soups-sup-lapsha-z-frykadelkamy",
+          "name": "Суп-лапша з фрикадельками",
+          "description": "Легкий курячий суп з фрикадельками.",
+          "weight": "300 г",
+          "price": "90",
+          "type": "food",
+          "image": "img_0658",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "soups-solianka",
+          "name": "Солянка",
+          "description": "Насичена м'ясна солянка.",
+          "weight": "300 г",
+          "price": "130",
+          "type": "food",
+          "image": "img_0183",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "soups-okroshka",
+          "name": "Окрошка",
+          "description": "Холодна сезонна перша страва.",
+          "weight": "300 г",
+          "price": "150",
+          "type": "food"
+        }
+      ]
+    },
+    {
+      "id": "grill",
+      "name": "Мангал меню",
+      "note": "м'ясо, риба, бургери",
+      "icon": "fire",
+      "type": "food",
+      "items": [
+        {
+          "id": "grill-shashlyk-iz-svynyny",
+          "name": "Шашлик із свинини",
+          "description": "Приготований на вугіллі.",
+          "weight": "200 г",
+          "price": "260",
+          "type": "food",
+          "image": "img_9837",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-shashlyk-iz-teliatyny",
+          "name": "Шашлик із телятини",
+          "description": "М'ясо з мангалу з класичною подачею.",
+          "weight": "200 г",
+          "price": "270",
+          "type": "food",
+          "image": "img_6276",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-liulia-kebab-iz-svynyny",
+          "name": "Люля-кебаб із свинини",
+          "description": "Соковитий кебаб на вугіллі.",
+          "weight": "200 г",
+          "price": "210",
+          "type": "food",
+          "image": "img_9284",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-liulia-kebab-iz-teliatyny",
+          "name": "Люля-кебаб із телятини",
+          "description": "Подача з лавашем та соусом.",
+          "weight": "200 г",
+          "price": "220",
+          "type": "food"
+        },
+        {
+          "id": "grill-steik-iz-svyniachoho-oshyika",
+          "name": "Стейк із свинячого ошийка",
+          "description": "Соковитий свинячий стейк.",
+          "weight": "200 г",
+          "price": "310",
+          "type": "food",
+          "image": "img_1587",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-rebertsia-svyniachi-na-vuhilli",
+          "name": "Реберця свинячі на вугіллі",
+          "description": "Реберця з мангалу.",
+          "weight": "300 г",
+          "price": "290",
+          "type": "food",
+          "image": "img_0193",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-lavash-z-syrom-suluhuni",
+          "name": "Лаваш з сиром Сулугуні",
+          "description": "Підрум'янений лаваш з сиром.",
+          "weight": "150 г",
+          "price": "100",
+          "type": "food",
+          "image": "img_3991",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-patelnia-zi-svynynoiu-ta-lysychkamy",
+          "name": "Пательня зі свининою та лисичками",
+          "description": "Гаряча пательня з грибами.",
+          "weight": "350 г",
+          "price": "280",
+          "type": "food",
+          "image": "img_7356",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-serdechka-kuriachi",
+          "name": "Сердечка курячі",
+          "description": "Курячі сердечка з мангалу.",
+          "weight": "200 г",
+          "price": "270",
+          "type": "food",
+          "image": "img_7591",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-piv-kurcha",
+          "name": "Пів курча",
+          "description": "Подача з гарніром та соусом.",
+          "weight": "350/200/50 г",
+          "price": "280",
+          "type": "food"
+        },
+        {
+          "id": "grill-file-dorado-z-ovochamy",
+          "name": "Філе дорадо з овочами",
+          "description": "Риба з овочами.",
+          "weight": "300 г",
+          "price": "310",
+          "type": "food",
+          "image": "img_8908",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-file-lososia-z-sousom-dor-bliu",
+          "name": "Філе лосося з соусом дор блю",
+          "description": "Лосось із соусом дор блю.",
+          "weight": "150 г",
+          "price": "420",
+          "type": "food",
+          "image": "img_0190",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-kare-iahniaty",
+          "name": "Каре ягняти",
+          "description": "М'ясо ягняти з мангалу.",
+          "weight": "300 г",
+          "price": "360",
+          "type": "food",
+          "image": "img_0193",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-burher-horynych",
+          "name": "Бургер «Горинич»",
+          "description": "Фірмовий бургер з картоплею та соусом.",
+          "weight": "420/100/50 г",
+          "price": "360",
+          "type": "food",
+          "image": "img_3568",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-burher-z-rvanoiu-svynynoiu",
+          "name": "Бургер з рваною свининою",
+          "description": "Бургер з м'ясною начинкою та картоплею.",
+          "weight": "300/100/50 г",
+          "price": "300",
+          "type": "food",
+          "image": "img_9734",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-burher-syrnyi",
+          "name": "Бургер сирний",
+          "description": "Сирний бургер з картоплею.",
+          "weight": "300/100/50 г",
+          "price": "300",
+          "type": "food",
+          "image": "img_9886",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-burher-z-syrom-v-panirovtsi",
+          "name": "Бургер з сиром в паніровці",
+          "description": "Бургер з хрустким сиром.",
+          "weight": "300/100/50 г",
+          "price": "300",
+          "type": "food",
+          "image": "img_0195",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "grill-burher-kuriachyi",
+          "name": "Бургер курячий",
+          "description": "Курячий бургер з картоплею.",
+          "weight": "300/100/50 г",
+          "price": "290",
+          "type": "food",
+          "image": "img_9944",
+          "imgW": 960,
+          "imgH": 720
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Гарніри",
+      "note": "картопля, овочі, гриби",
+      "icon": "potato",
+      "type": "food",
+      "items": [
+        {
+          "id": "sides-kartoplia-zapechena-z-pidcherevynoiu",
+          "name": "Картопля запечена з підчеревиною",
+          "description": "Запечена картопля з м'ясним акцентом.",
+          "weight": "200 г",
+          "price": "90",
+          "type": "food",
+          "image": "img_4087",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "sides-kartoplia-fri",
+          "name": "Картопля фрі",
+          "description": "Класична фрі.",
+          "weight": "150 г",
+          "price": "80",
+          "type": "food",
+          "image": "img_7774",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "sides-kartoplia-po-seliansky",
+          "name": "Картопля по-селянськи",
+          "description": "Картопляні дольки зі спеціями.",
+          "weight": "150 г",
+          "price": "80",
+          "type": "food",
+          "image": null
+        },
+        {
+          "id": "sides-ovochi-hryl",
+          "name": "Овочі гриль",
+          "description": "Грильовані сезонні овочі.",
+          "weight": "250 г",
+          "price": "120",
+          "type": "food",
+          "image": "img_3907",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "sides-kvasolia-struchkova-zapechena-z-syrom",
+          "name": "Квасоля стручкова запечена з сиром",
+          "description": "Зелена квасоля з сиром.",
+          "weight": "200 г",
+          "price": "100",
+          "type": "food",
+          "image": null
+        },
+        {
+          "id": "sides-shampiniony-smazheni-z-chasnykovym-sousom",
+          "name": "Шампіньйони смажені з часниковим соусом",
+          "description": "Печериці з часниковим соусом.",
+          "weight": "180 г",
+          "price": "100",
+          "type": "food",
+          "image": "img_1472",
+          "imgW": 960,
+          "imgH": 720
+        }
+      ]
+    },
+    {
+      "id": "sauces",
+      "name": "Соуси",
+      "note": "50 г",
+      "icon": "drop",
+      "type": "food",
+      "items": [
+        {
+          "id": "sauces-shashlychnyi",
+          "name": "Шашличний",
+          "description": "До м'яса та мангалу.",
+          "weight": "50 г",
+          "price": "20",
+          "type": "food"
+        },
+        {
+          "id": "sauces-chasnykovyi",
+          "name": "Часниковий",
+          "description": "До закусок та картоплі.",
+          "weight": "50 г",
+          "price": "20",
+          "type": "food"
+        },
+        {
+          "id": "sauces-tar-tar",
+          "name": "Тар-тар",
+          "description": "До риби та морепродуктів.",
+          "weight": "50 г",
+          "price": "20",
+          "type": "food"
+        },
+        {
+          "id": "sauces-narsharab",
+          "name": "Наршараб",
+          "description": "Гранатовий соус.",
+          "weight": "50 г",
+          "price": "30",
+          "type": "food"
+        },
+        {
+          "id": "sauces-ketchup",
+          "name": "Кетчуп",
+          "description": "Класичний томатний.",
+          "weight": "50 г",
+          "price": "15",
+          "type": "food"
+        },
+        {
+          "id": "sauces-syrnyi",
+          "name": "Сирний",
+          "description": "Вершково-сирний.",
+          "weight": "50 г",
+          "price": "30",
+          "type": "food"
+        },
+        {
+          "id": "sauces-kyslo-solodkyi",
+          "name": "Кисло-солодкий",
+          "description": "До закусок.",
+          "weight": "50 г",
+          "price": "30",
+          "type": "food"
+        },
+        {
+          "id": "sauces-manho-chyli",
+          "name": "Манго-чилі",
+          "description": "Солодко-гострий.",
+          "weight": "50 г",
+          "price": "30",
+          "type": "food"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Десерти",
+      "note": "солодкий фінал",
+      "icon": "cake",
+      "type": "food",
+      "items": [
+        {
+          "id": "desserts-iabluchnyi-tart",
+          "name": "Яблучний тарт",
+          "description": "Теплий тарт з яблуком.",
+          "weight": "250 г",
+          "price": "110",
+          "type": "food"
+        },
+        {
+          "id": "desserts-krem-briule",
+          "name": "Крем-брюле",
+          "description": "Класичний вершковий десерт.",
+          "weight": "150 г",
+          "price": "100",
+          "type": "food"
+        },
+        {
+          "id": "desserts-morozyvo-z-topinhom",
+          "name": "Морозиво з топінгом",
+          "description": "Морозиво з топінгом на вибір.",
+          "weight": "100/30 г",
+          "price": "60",
+          "type": "food"
+        },
+        {
+          "id": "desserts-napoleon",
+          "name": "Наполеон",
+          "description": "Листковий торт з кремом.",
+          "weight": "150 г",
+          "price": "100",
+          "type": "food",
+          "image": "img_7379",
+          "imgW": 960,
+          "imgH": 720
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "name": "Пиво",
+      "note": "кегове та пляшкове",
+      "icon": "beer",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "beer-warsteiner",
+          "name": "Warsteiner",
+          "description": "Кегове пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "120 / 160",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-guinness",
+          "name": "Guinness",
+          "description": "Кегове темне пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "140 / 190",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-grimbergen-blanche",
+          "name": "Grimbergen Blanche",
+          "description": "Кегове пшеничне пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "100 / 150",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-grimbergen-double-ambr-e",
+          "name": "Grimbergen Double-Ambrée",
+          "description": "Кегове амброве пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "100 / 150",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-carlsberg",
+          "name": "Carlsberg",
+          "description": "Кегове пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "65 / 95",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-kronenbourg",
+          "name": "Kronenbourg",
+          "description": "Кегове пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "60 / 85",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-zolotyi-lev",
+          "name": "Золотий Лев",
+          "description": "Кегове пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "50 / 70",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-bilyi-lev",
+          "name": "Білий Лев",
+          "description": "Кегове пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "50 / 70",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-horynych",
+          "name": "Горинич",
+          "description": "Фірмове кегове пиво.",
+          "weight": "0,3 / 0,5 л",
+          "price": "50 / 70",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-sydr-chornytsia",
+          "name": "Сидр Чорниця",
+          "description": "Кегове.",
+          "weight": "0,3 / 0,5 л",
+          "price": "50 / 70",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-dunkel",
+          "name": "Дункель",
+          "description": "Кегове темне.",
+          "weight": "0,3 / 0,5 л",
+          "price": "50 / 70",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-grimbergen-blanche-2",
+          "name": "Grimbergen Blanche",
+          "description": "Пляшкове пиво.",
+          "weight": "0,3 л пляшка",
+          "price": "130",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-grimbergen-double-ambr-e-2",
+          "name": "Grimbergen Double-Ambrée",
+          "description": "Пляшкове пиво.",
+          "weight": "0,3 л пляшка",
+          "price": "130",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-grimbergen-blonde",
+          "name": "Grimbergen Blonde",
+          "description": "Пляшкове пиво.",
+          "weight": "0,3 л пляшка",
+          "price": "130",
+          "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "name": "Вина та ігристі",
+      "note": "150 мл / пляшка",
+      "icon": "wine",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "wine-prosecco-spumante",
+          "name": "Prosecco Spumante",
+          "description": "Напівсухе ігристе.",
+          "weight": "150 мл / пляшка",
+          "price": "180 / 900",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-san-mare-fragolino",
+          "name": "San Mare Fragolino",
+          "description": "Напівсолодке ігристе.",
+          "weight": "пляшка",
+          "price": "450",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-marengo",
+          "name": "Marengo",
+          "description": "Ігристе в асортименті.",
+          "weight": "пляшка",
+          "price": "350",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-geo-alazanska-dolyna-bile",
+          "name": "Geo Алазанська долина біле",
+          "description": "Грузія, напівсолодке біле.",
+          "weight": "150 мл / пляшка",
+          "price": "120 / 600",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-geo-alazanska-dolyna-chervone",
+          "name": "Geo Алазанська долина червоне",
+          "description": "Грузія, напівсолодке червоне.",
+          "weight": "150 мл / пляшка",
+          "price": "120 / 600",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-koblevo-kaberne",
+          "name": "Коблево Каберне",
+          "description": "Україна, сухе червоне.",
+          "weight": "150 мл / пляшка",
+          "price": "80 / 400",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-koblevo-bastardo",
+          "name": "Коблево Бастардо",
+          "description": "Україна, напівсолодке червоне.",
+          "weight": "150 мл / пляшка",
+          "price": "80 / 400",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-koblevo-muskat",
+          "name": "Коблево Мускат",
+          "description": "Україна, напівсолодке біле.",
+          "weight": "150 мл / пляшка",
+          "price": "80 / 400",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-koblevo-shardone",
+          "name": "Коблево Шардоне",
+          "description": "Україна, сухе біле.",
+          "weight": "150 мл / пляшка",
+          "price": "80 / 400",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-latinium-riesling",
+          "name": "Latinium Riesling",
+          "description": "Німеччина, напівсолодке біле.",
+          "weight": "150 мл / пляшка",
+          "price": "120 / 600",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-latinium-gewurztraminer",
+          "name": "Latinium Gewurztraminer",
+          "description": "Німеччина, напівсолодке біле.",
+          "weight": "150 мл / пляшка",
+          "price": "120 / 600",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-terra-italianica-chervone",
+          "name": "Terra Italianica червоне",
+          "description": "Італія, напівсухе червоне.",
+          "weight": "150 мл / пляшка",
+          "price": "120 / 600",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-terra-italianica-bile",
+          "name": "Terra Italianica біле",
+          "description": "Італія, напівсухе біле.",
+          "weight": "150 мл / пляшка",
+          "price": "120 / 600",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-sensi-pinot-grigio-veneto-collezione",
+          "name": "Sensi Pinot Grigio Veneto Collezione",
+          "description": "Італія, сухе біле.",
+          "weight": "150 мл / пляшка",
+          "price": "140 / 700",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-dourthe-no-1-bordeaux-blanc",
+          "name": "Dourthe No.1 Bordeaux Blanc",
+          "description": "Франція, сухе біле.",
+          "weight": "пляшка",
+          "price": "900",
+          "type": "drinks"
+        },
+        {
+          "id": "wine-dourthe-no-1-bordeaux-rouge",
+          "name": "Dourthe No.1 Bordeaux Rouge",
+          "description": "Франція, сухе червоне.",
+          "weight": "пляшка",
+          "price": "900",
+          "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "spirits",
+      "name": "Міцний алкоголь",
+      "note": "50 мл",
+      "icon": "bottle",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "spirits-koskenkorva",
+          "name": "Koskenkorva",
+          "description": "Горілка, 40%.",
+          "weight": "50 мл",
+          "price": "70",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-smirnoff-red-no-21",
+          "name": "Smirnoff Red No.21",
+          "description": "Горілка, 40%.",
+          "weight": "50 мл",
+          "price": "70",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-zubrowka-biala",
+          "name": "Zubrowka Biala",
+          "description": "Горілка, 40%.",
+          "weight": "50 мл",
+          "price": "50",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-persha-hildiia-povazhna",
+          "name": "Перша Гільдія «Поважна»",
+          "description": "Горілка, 40%.",
+          "weight": "50 мл",
+          "price": "45",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-kozatska-rada-klasychna",
+          "name": "Козацька Рада «Класична»",
+          "description": "Горілка, 40%.",
+          "weight": "50 мл",
+          "price": "45",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-kozatska-rada-pertseva",
+          "name": "Козацька Рада «Перцева»",
+          "description": "Горілка, 40%.",
+          "weight": "50 мл",
+          "price": "45",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-hennessy-very-special",
+          "name": "Hennessy Very Special",
+          "description": "Коньяк, 40%.",
+          "weight": "50 мл",
+          "price": "185",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-metaxa-5-stars",
+          "name": "Metaxa 5 Stars",
+          "description": "Бренді, 40%.",
+          "weight": "50 мл",
+          "price": "90",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-kaponi-3",
+          "name": "Капоні 3*",
+          "description": "Бренді, 40%.",
+          "weight": "50 мл",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-koblevo-reserve-vs",
+          "name": "Коблево Reserve VS",
+          "description": "Бренді, 40%.",
+          "weight": "50 мл",
+          "price": "50",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-tanqueray-london-dry",
+          "name": "Tanqueray London Dry",
+          "description": "Джин.",
+          "weight": "50 мл",
+          "price": "120",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-gordons-premium-pink",
+          "name": "Gordon's Premium Pink",
+          "description": "Джин.",
+          "weight": "50 мл",
+          "price": "120",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-gordons-london-dry",
+          "name": "Gordon's London Dry",
+          "description": "Джин.",
+          "weight": "50 мл",
+          "price": "110",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-gordons-passionfruit",
+          "name": "Gordon's Passionfruit",
+          "description": "Джин.",
+          "weight": "50 мл",
+          "price": "120",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-jarana-blanco",
+          "name": "JARANA BLANCO",
+          "description": "Текіла, 100% Blue Agave.",
+          "weight": "50 мл",
+          "price": "120",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-jarana-reposado",
+          "name": "JARANA REPOSADO",
+          "description": "Текіла, 100% Blue Agave.",
+          "weight": "50 мл",
+          "price": "120",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-captain-morgan-black-spiced",
+          "name": "Captain Morgan Black Spiced",
+          "description": "Ром.",
+          "weight": "50 мл",
+          "price": "120",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-captain-morgan-dark",
+          "name": "Captain Morgan Dark",
+          "description": "Ром.",
+          "weight": "50 мл",
+          "price": "110",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-captain-morgan-white",
+          "name": "Captain Morgan White",
+          "description": "Ром.",
+          "weight": "50 мл",
+          "price": "110",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-captain-morgan-original-spiced-gold",
+          "name": "Captain Morgan Original Spiced Gold",
+          "description": "Ром.",
+          "weight": "50 мл",
+          "price": "140",
+          "type": "drinks"
+        },
+        {
+          "id": "spirits-j-germeister",
+          "name": "Jägermeister",
+          "description": "Крижаний шот.",
+          "weight": "50 мл",
+          "price": "120",
+          "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "whiskey",
+      "name": "Віскі та лікери",
+      "note": "50 мл",
+      "icon": "glass",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "whiskey-johnnie-walker-black-label-12-yo",
+          "name": "Johnnie Walker Black Label 12 YO",
+          "description": "Шотландія, бленди.",
+          "weight": "50 мл",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-johnnie-walker-red-label",
+          "name": "Johnnie Walker Red Label",
+          "description": "Шотландія, бленди.",
+          "weight": "50 мл",
+          "price": "130",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-bells-original",
+          "name": "Bell's Original",
+          "description": "Шотландія, бленди.",
+          "weight": "50 мл",
+          "price": "100",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-macallan-double-cask-12-yo",
+          "name": "Macallan Double Cask 12 YO",
+          "description": "Шотландія, молти.",
+          "weight": "50 мл",
+          "price": "340",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-the-singleton-of-dufftown-12-yo",
+          "name": "The Singleton of Dufftown 12 YO",
+          "description": "Шотландія, молти.",
+          "weight": "50 мл",
+          "price": "240",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-glenmorangie-the-original-12-yo",
+          "name": "Glenmorangie The Original 12 YO",
+          "description": "Шотландія, молти.",
+          "weight": "50 мл",
+          "price": "240",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-obrian",
+          "name": "O'Brian",
+          "description": "Ірландія.",
+          "weight": "50 мл",
+          "price": "140",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-bulleit-bourbon",
+          "name": "Bulleit Bourbon",
+          "description": "США.",
+          "weight": "50 мл",
+          "price": "160",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-jack-daniels",
+          "name": "Jack Daniel's",
+          "description": "США.",
+          "weight": "50 мл",
+          "price": "160",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-jack-daniels-honey",
+          "name": "Jack Daniel's Honey",
+          "description": "США.",
+          "weight": "50 мл",
+          "price": "160",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-jack-daniels-apple",
+          "name": "Jack Daniel's Apple",
+          "description": "США.",
+          "weight": "50 мл",
+          "price": "160",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-cointreau",
+          "name": "Cointreau",
+          "description": "Лікер.",
+          "weight": "50 мл",
+          "price": "110",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-baileys-the-original",
+          "name": "Baileys The Original",
+          "description": "Лікер.",
+          "weight": "50 мл",
+          "price": "100",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-becherovka",
+          "name": "Becherovka",
+          "description": "Лікер.",
+          "weight": "50 мл",
+          "price": "100",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-sambuca-antica-classic",
+          "name": "Sambuca Antica Classic",
+          "description": "Лікер.",
+          "weight": "50 мл",
+          "price": "90",
+          "type": "drinks"
+        },
+        {
+          "id": "whiskey-xenta-absenta",
+          "name": "Xenta Absenta",
+          "description": "Лікер.",
+          "weight": "50 мл",
+          "price": "100",
+          "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "infusions",
+      "name": "Фірмові наливки та напої",
+      "note": "50 мл / 500 мл",
+      "icon": "flask",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "infusions-khrinovukha",
+          "name": "Хріновуха",
+          "description": "Фірмова наливка.",
+          "weight": "50 мл",
+          "price": "35",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-zubrivka",
+          "name": "Зубрівка",
+          "description": "Фірмова наливка.",
+          "weight": "50 мл",
+          "price": "35",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-vyshnia-z-chornoslyvom",
+          "name": "Вишня з чорносливом",
+          "description": "Фірмова наливка.",
+          "weight": "50 мл",
+          "price": "40",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-bananova",
+          "name": "Бананова",
+          "description": "Фірмова наливка.",
+          "weight": "50 мл",
+          "price": "40",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-zhuravlyna",
+          "name": "Журавлина",
+          "description": "Фірмова наливка.",
+          "weight": "50 мл",
+          "price": "40",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-drakonivka",
+          "name": "Драконівка",
+          "description": "Фірмова наливка.",
+          "weight": "50 мл",
+          "price": "40",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-lymonchello",
+          "name": "Лимончелло",
+          "description": "Фірмова наливка.",
+          "weight": "50 мл",
+          "price": "40",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-kola-sprait",
+          "name": "Кола / Спрайт",
+          "description": "Пляшка.",
+          "weight": "500 мл",
+          "price": "70",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-fanta-bonakva",
+          "name": "Фанта / Бонаква",
+          "description": "Пляшка.",
+          "weight": "500 мл",
+          "price": "70",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-burn",
+          "name": "Burn",
+          "description": "Енергетичний напій.",
+          "weight": "250 мл",
+          "price": "110",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-sik-v-asortymenti",
+          "name": "Сік в асортименті",
+          "description": "Уточнюйте смаки.",
+          "weight": "250 мл / 1 л",
+          "price": "65 / 260",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-uzvar",
+          "name": "Узвар",
+          "description": "Домашній напій.",
+          "weight": "250 мл / 1 л",
+          "price": "50 / 200",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-schweppes-tonic",
+          "name": "Schweppes Tonic",
+          "description": "Тонік.",
+          "weight": "0,33 л",
+          "price": "70",
+          "type": "drinks"
+        },
+        {
+          "id": "infusions-lymonad-v-asortymenti",
+          "name": "Лимонад в асортименті",
+          "description": "Фірмовий лимонад.",
+          "weight": "0,35 л",
+          "price": "100",
+          "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "name": "Коктейлі",
+      "note": "барна карта",
+      "icon": "cocktail",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "cocktails-aperol-pink",
+          "name": "Aperol Pink",
+          "description": "Gordon's Pink, просекко, содова.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-aperol-spritz",
+          "name": "Aperol Spritz",
+          "description": "Апероль, просекко, содова.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-pina-colada",
+          "name": "Pina Colada",
+          "description": "Captain Morgan White, кокосовий лікер, ананасовий сік, свіжий ананас.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-bloody-mary",
+          "name": "Bloody Mary",
+          "description": "Zubrowka Biala, томатний сік, ворчестерський соус, табаско, сіль, перець.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-clover-club",
+          "name": "Clover Club",
+          "description": "Gordon's London Dry, малиновий топінг, фреш лайма, білок.",
+          "weight": "",
+          "price": "170",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-french-75",
+          "name": "French 75",
+          "description": "Gordon's London Dry, просекко, цукровий сироп, лимонний фреш.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-mai-tai",
+          "name": "Mai Tai",
+          "description": "Captain Morgan White, Dark, трипл сек, орже, фреш лайма.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-negroni",
+          "name": "Negroni",
+          "description": "Червоний вермут, кампарі, Gordon's London Dry.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-whiskey-sour",
+          "name": "Whiskey Sour",
+          "description": "Бурбон, лимонний фреш, цукровий сироп, білок.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-planters-punch",
+          "name": "Planter's Punch",
+          "description": "Captain Morgan White, Dark, трипл сек, гренадін, апельсин, ананас, лимонний фреш, ангостура.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-mojito",
+          "name": "Mojito",
+          "description": "Captain Morgan Gold, м'ята, спрайт, содова, тростинний цукор.",
+          "weight": "",
+          "price": "200",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-long-island",
+          "name": "Long Island",
+          "description": "Горілка, ром, джин, текіла, трипл сек, лимонний фреш, цукровий сироп, кола.",
+          "weight": "",
+          "price": "200",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-skullduggery",
+          "name": "Skullduggery",
+          "description": "Captain Morgan White, Dark, ананасовий сік, маракуя, кокосовий крем.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-zombie",
+          "name": "Zombie",
+          "description": "Captain Morgan White, Dark, Gold, золотий ром, фреш лайма, маракуя, цукровий сироп.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-the-last-dragon",
+          "name": "The Last Dragon",
+          "description": "Captain Morgan White, лимонний фреш, пітахая, блю кюрасао.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-candy-cane",
+          "name": "Candy Cane",
+          "description": "Gordon's London Dry, лимонний фреш, імбирний сироп, пітахая, содова.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-chief-lapu-lapu",
+          "name": "Chief Lapu Lapu",
+          "description": "Captain Morgan White, Dark, апельсиновий сік, фреш лайма, цукровий сироп, пюре маракуї.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-espresso-martini",
+          "name": "Espresso Martini",
+          "description": "Koskenkorva, еспресо, цукровий сироп, кавовий лікер.",
+          "weight": "",
+          "price": "170",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-apple-sour",
+          "name": "Apple Sour",
+          "description": "Captain Morgan, яблучний сік, пюре груші, фреш лимону, foamin.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-devils-margarita",
+          "name": "Devil's Margarita",
+          "description": "Jarana Blanco, фреш лимону, манго-ананас, червоне вино.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-jungle-cat",
+          "name": "Jungle Cat",
+          "description": "Gordon's London Dry, кампарі, ананасовий сік, фреш лимону, пюре ананасу.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-east-hold",
+          "name": "East & Hold",
+          "description": "Captain Morgan White, апероль, ананасовий сік, фреш лимону, манго-ананас.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-gorynych",
+          "name": "Gorynych",
+          "description": "Jarana Blanco, Captain Morgan Dark, трипл сек, ананасовий сік, фреш лимону, мигдальний сироп, сироп вишні.",
+          "weight": "",
+          "price": "200",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-dragon-colada",
+          "name": "Dragon Colada",
+          "description": "Pisco, пітахая, імбирний та кокосовий сироп, сік, вершки.",
+          "weight": "",
+          "price": "190",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-dragon-lady",
+          "name": "Dragon Lady",
+          "description": "Gordon's London Dry, пітахая, трипл сек, лимонний фреш, білок.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-dragon-garden",
+          "name": "Dragon Garden",
+          "description": "Козацька Рада, лимонний фреш, пітахая, сироп бузини, швепс.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-festive-dragon",
+          "name": "Festive Dragon",
+          "description": "Captain Morgan White, лимонний фреш, трипл сек, пітахая.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-frost-dragon",
+          "name": "Frost Dragon",
+          "description": "Jarana Blanco, лимонний фреш, сироп бузини, блю кюрасао.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "cocktails-pinkest-daiquiri",
+          "name": "Pinkest Daiquiri",
+          "description": "Captain Morgan White, лимонний фреш, пітахая.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "special-cocktails",
+      "name": "Спешл коктейлі",
+      "note": "фірмові мікси",
+      "icon": "star",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "special-cocktails-ayk-dragon",
+          "name": "Ayk Dragon",
+          "description": "Gordon's Pink, згущене молоко, полуничний сироп, білок, лимонна содова.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "special-cocktails-moon-star",
+          "name": "Moon Star",
+          "description": "Горілка ванільна, лікер маракуя, ванільний цукор, просекко.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "special-cocktails-baby-blue",
+          "name": "Baby Blue",
+          "description": "Горілка ванільна, лимонний сік, блю кюрасао, персик, білок.",
+          "weight": "",
+          "price": "170",
+          "type": "drinks"
+        },
+        {
+          "id": "special-cocktails-mozi-moon",
+          "name": "Mozi Moon",
+          "description": "Gordon's Pink, сік лимона, кокосовий лікер, гренадін, білок.",
+          "weight": "",
+          "price": "170",
+          "type": "drinks"
+        },
+        {
+          "id": "special-cocktails-pink-barbie",
+          "name": "Pink Barbie",
+          "description": "Ванільна горілка, пюре пітахая, персик, лимонний сік, просекко.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "special-cocktails-very-peri",
+          "name": "Very Peri",
+          "description": "Gordon's London Dry, банановий лікер, персиковий лікер, бузина, лимонний сік, білок.",
+          "weight": "",
+          "price": "180",
+          "type": "drinks"
+        },
+        {
+          "id": "special-cocktails-strawberry-kiss",
+          "name": "Strawberry Kiss",
+          "description": "Ванільна горілка, полуничний лікер, самбука, ананасовий сік.",
+          "weight": "",
+          "price": "170",
+          "type": "drinks"
+        },
+        {
+          "id": "special-cocktails-chili-sour",
+          "name": "Chili Sour",
+          "description": "Піско, імбирний сироп, лимонний сік, соус шрірача, білок.",
+          "weight": "",
+          "price": "170",
+          "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "coffee-tea",
+      "name": "Кава, чай та гарячі коктейлі",
+      "note": "гарячі напої",
+      "icon": "cup",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "coffee-tea-espreso",
+          "name": "Еспресо",
+          "description": "Кава.",
+          "weight": "",
+          "price": "45",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-amerykano",
+          "name": "Американо",
+          "description": "Кава.",
+          "weight": "",
+          "price": "45",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-kapuchyno",
+          "name": "Капучино",
+          "description": "Кава з молоком.",
+          "weight": "",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-late",
+          "name": "Лате",
+          "description": "Молочна кава.",
+          "weight": "",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-kakao",
+          "name": "Какао",
+          "description": "Гарячий напій.",
+          "weight": "",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-chai-domashnii-imbyr-laim-med",
+          "name": "Чай домашній Імбир-Лайм-Мед",
+          "description": "Фруктово-пряний чай.",
+          "weight": "",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-chai-domashnii-malyna-oblipykha",
+          "name": "Чай домашній Малина-Обліпиха",
+          "description": "Ягідний чай.",
+          "weight": "",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-chai-domashnii-oblipykha",
+          "name": "Чай домашній Обліпиха",
+          "description": "Обліпиховий чай.",
+          "weight": "",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-chai-domashnii-polunytsia-malyna-chebrets",
+          "name": "Чай домашній Полуниця-Малина-Чебрець",
+          "description": "Ягідно-трав'яний чай.",
+          "weight": "",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-chai-domashnii-manho-marakuia",
+          "name": "Чай домашній Манго-Маракуя",
+          "description": "Тропічний чай.",
+          "weight": "",
+          "price": "65",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-chai-zavarnyi",
+          "name": "Чай заварний",
+          "description": "Чорний, зелений, трав'яний або фруктовий.",
+          "weight": "",
+          "price": "50",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-chervonyi-hlintvein",
+          "name": "Червоний глінтвейн",
+          "description": "Гарячий алкогольний коктейль.",
+          "weight": "",
+          "price": "90",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-bilyi-hlintvein",
+          "name": "Білий глінтвейн",
+          "description": "Гарячий алкогольний коктейль.",
+          "weight": "",
+          "price": "90",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-prazkyi-hlintvein",
+          "name": "Празький глінтвейн",
+          "description": "Гарячий алкогольний коктейль.",
+          "weight": "",
+          "price": "100",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-zoloto-drakona",
+          "name": "Золото Дракона",
+          "description": "Гарячий алкогольний коктейль.",
+          "weight": "",
+          "price": "100",
+          "type": "drinks"
+        },
+        {
+          "id": "coffee-tea-medova-tsukerka",
+          "name": "Медова цукерка",
+          "description": "Гарячий алкогольний коктейль.",
+          "weight": "",
+          "price": "100",
+          "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "beer-cocktails",
+      "name": "Пивні коктейлі",
+      "note": "мікси на пиві",
+      "icon": "mug",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "beer-cocktails-dr-pepper",
+          "name": "Dr. Pepper",
+          "description": "Carlsberg, кола, амаретто.",
+          "weight": "",
+          "price": "100",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-cocktails-naked-tits",
+          "name": "Naked Tits",
+          "description": "Яблучний сік, Carlsberg, самбука, гренадін.",
+          "weight": "",
+          "price": "100",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-cocktails-jam-bitter-sweet",
+          "name": "Jam Bitter Sweet",
+          "description": "Віскі, кампарі, грейпфрутовий сік, Kronenbourg.",
+          "weight": "",
+          "price": "110",
+          "type": "drinks"
+        },
+        {
+          "id": "beer-cocktails-aperol-mist",
+          "name": "Aperol Mist",
+          "description": "Апероль, нефільтрований Grimbergen, лимонний фреш.",
+          "weight": "",
+          "price": "120",
+          "type": "drinks"
+        }
+      ]
+    }
+  ]
+}
