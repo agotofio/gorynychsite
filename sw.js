@@ -1,12 +1,9 @@
-const CACHE_NAME = "gorynych-menu-v2";
+const CACHE_NAME = "gorynych-menu-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./script.js",
-  "./admin.html",
-  "./admin.css",
-  "./admin.js",
   "./data/menu.json",
   "./manifest.webmanifest",
 ];
