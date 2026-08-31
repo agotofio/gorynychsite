@@ -15,10 +15,71 @@ const els = {
   search: document.getElementById("menuSearch"),
   searchClear: document.getElementById("searchClear"),
   searchStatus: document.getElementById("searchStatus"),
+  menuUpdated: document.getElementById("menuUpdated"),
+  resetFilters: document.getElementById("resetFilters"),
+  backToTop: document.getElementById("backToTop"),
+  brand: document.querySelector(".brand"),
   quickTabs: [...document.querySelectorAll(".quick-tabs button")],
   modal: document.getElementById("itemModal"),
   modalDialog: document.getElementById("itemModalDialog"),
 };
+
+function ensureHostedControls() {
+  if (!els.menuUpdated) {
+    const introMeta = document.querySelector(".intro-meta");
+    if (introMeta) {
+      const updated = document.createElement("span");
+      updated.id = "menuUpdated";
+      updated.textContent = "оновлення меню";
+      introMeta.append(updated);
+      els.menuUpdated = updated;
+    }
+  }
+
+  const quickTabs = document.querySelector(".quick-tabs");
+  const extraFilters = [
+    ["under-200", "До 200 ₴"],
+    ["for-company", "На компанію"],
+    ["beer", "До пива"],
+    ["cocktails", "Коктейлі"],
+    ["desserts", "Десерти"],
+  ];
+  extraFilters.forEach(([filter, label]) => {
+    if (!quickTabs || quickTabs.querySelector(`[data-filter="${filter}"]`)) return;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.dataset.filter = filter;
+    button.setAttribute("aria-pressed", "false");
+    button.textContent = label;
+    quickTabs.append(button);
+  });
+  els.quickTabs = [...document.querySelectorAll(".quick-tabs button")];
+
+  if (!els.resetFilters && quickTabs) {
+    const reset = document.createElement("button");
+    reset.type = "button";
+    reset.className = "reset-filters";
+    reset.id = "resetFilters";
+    reset.disabled = true;
+    reset.textContent = "Очистити фільтри";
+    quickTabs.parentElement?.append(reset);
+    els.resetFilters = reset;
+  }
+
+  if (!els.backToTop) {
+    const backToTop = document.createElement("button");
+    backToTop.type = "button";
+    backToTop.className = "back-to-top";
+    backToTop.id = "backToTop";
+    backToTop.hidden = true;
+    backToTop.setAttribute("aria-label", "Повернутися нагору");
+    backToTop.innerHTML = "↑ <span>Нагору</span>";
+    document.body.append(backToTop);
+    els.backToTop = backToTop;
+  }
+}
+
+ensureHostedControls();
 
 let menu = null;
 let activeFilter = "all";
@@ -54,7 +115,15 @@ function debounce(fn, delay) {
 function itemMatchesSearch(category, item, term) {
   if (!term) return true;
   const haystack = normalize(
-    [category.name, item.name, item.description, item.weight, String(item.price ?? "")]
+    [
+      category.name,
+      category.note,
+      item.name,
+      item.description,
+      item.ingredients,
+      item.weight,
+      String(item.price ?? ""),
+    ]
       .filter(Boolean)
       .join(" ")
   );
@@ -62,10 +131,37 @@ function itemMatchesSearch(category, item, term) {
 }
 
 function itemMatchesFilter(category, item) {
-  if (activeFilter === "food" && category.type !== "food") return false;
-  if (activeFilter === "drinks" && category.type !== "drinks") return false;
-  if (activeFilter === "photo" && !item.image) return false;
+  return itemMatchesFilterValue(activeFilter, category, item);
+}
+
+function itemMatchesFilterValue(filter, category, item) {
+  if (filter === "all") return true;
+  if (filter === "food") return category.type === "food";
+  if (filter === "drinks") return category.type === "drinks";
+  if (filter === "photo") return Boolean(item.image);
+  if (filter === "under-200") return getPriceNumbers(item.price).some((price) => price <= 200);
+  if (filter === "for-company") {
+    return (
+      category.id === "boards" ||
+      /дошк|компан|набір|сет/i.test(
+        normalize([category.name, item.name, item.description].filter(Boolean).join(" "))
+      )
+    );
+  }
+  if (filter === "beer") {
+    return ["hot-snacks", "beer", "beer-cocktails"].includes(category.id) ||
+      /пивн|пив[ао]|сидр/i.test(normalize([category.name, item.name, item.description].join(" ")));
+  }
+  if (filter === "cocktails") return category.id === "cocktails" || category.id === "beer-cocktails";
+  if (filter === "desserts") return category.id === "desserts";
   return true;
+}
+
+function getPriceNumbers(price) {
+  return String(price ?? "")
+    .split("/")
+    .map((part) => Number.parseFloat(part.replace(",", ".").replace(/[^\d.]/g, "")))
+    .filter((value) => Number.isFinite(value));
 }
 
 function getVisibleCategories() {
@@ -104,8 +200,11 @@ function renderNav(categories) {
     .map(
       (category) => `
         <button type="button" class="${category.id === activeId ? "active" : ""}"
-          data-target="${category.id}" aria-current="${category.id === activeId ? "true" : "false"}">
-          ${escapeHtml(category.name)}
+          data-target="${escapeHtml(category.id)}"
+          aria-label="${escapeHtml(`${category.name}, ${category.items.length} позицій`)}"
+          aria-current="${category.id === activeId ? "true" : "false"}">
+          <span>${escapeHtml(category.name)}</span>
+          <span class="nav-count" aria-hidden="true">${category.items.length}</span>
         </button>
       `
     )
@@ -127,17 +226,21 @@ function setActiveNavButton(targetId) {
     el.classList.toggle("active", isActive);
     el.setAttribute("aria-current", isActive ? "true" : "false");
   });
-  els.sectionNav.querySelector(`button[data-target="${targetId}"]`)?.scrollIntoView({
-    block: "nearest",
-    inline: "nearest",
-  });
+  [...els.sectionNav.querySelectorAll("button")]
+    .find((button) => button.dataset.target === targetId)
+    ?.scrollIntoView({
+      block: "nearest",
+      inline: "nearest",
+    });
 }
 
 function renderItem(category, item) {
   const hasImage = Boolean(item.image);
   const photo = hasImage
     ? `<picture class="item-photo-wrap">
-        <source srcset="assets/dishes/${item.image}.webp" type="image/webp">
+        <source srcset="assets/dishes/thumbs/${item.image}.avif" type="image/avif">
+        <source srcset="assets/dishes/thumbs/${item.image}.webp 480w, assets/dishes/${item.image}.webp 960w"
+          sizes="(max-width: 760px) 92px, 128px" type="image/webp">
         <img class="item-photo" src="assets/dishes/${item.image}.jpg" alt="${escapeHtml(item.name)}"
           loading="lazy" decoding="async"
           onerror="this.closest('.item-photo-wrap')?.classList.add('img-broken')"
@@ -146,19 +249,45 @@ function renderItem(category, item) {
     : "";
 
   return `
-    <article class="menu-item ${hasImage ? "" : "no-photo"}" data-item-id="${item.id}" tabindex="0" role="button"
+    <article class="menu-item ${hasImage ? "" : "no-photo"}" data-item-id="${escapeHtml(item.id)}" tabindex="0" role="button"
       aria-label="Детальніше: ${escapeHtml(item.name)}">
       ${photo}
       <div class="item-body">
         <div class="item-top">
           <h3 class="item-name">${escapeHtml(item.name)}</h3>
-          <span class="item-price">${priceLabel(item.price)}</span>
+          ${priceMarkup(item)}
         </div>
         ${item.description ? `<p class="item-desc">${escapeHtml(item.description)}</p>` : ""}
         ${item.weight ? `<div class="item-meta"><span>${escapeHtml(item.weight)}</span></div>` : ""}
       </div>
     </article>
   `;
+}
+
+function priceMarkup(item) {
+  const rawPrice = String(item.price ?? "уточнюйте").trim();
+  const priceParts = rawPrice.split(/\s*\/\s*/).filter(Boolean);
+  const unitParts = String(item.weight ?? "").split(/\s*\/\s*/).filter(Boolean);
+
+  if (priceParts.length > 1 && priceParts.length === unitParts.length) {
+    const ariaLabel = priceParts
+      .map((price, index) => `${price} гривень за ${unitParts[index]}`)
+      .join("; ");
+    return `
+      <span class="item-price price-breakdown" aria-label="${escapeHtml(ariaLabel)}">
+        ${priceParts
+          .map(
+            (price, index) => `
+              <span class="price-part">
+                <b>${escapeHtml(price)}</b>
+                <small>${escapeHtml(unitParts[index])}</small>
+              </span>`
+          )
+          .join("")}
+      </span>`;
+  }
+
+  return `<span class="item-price">${priceLabel(rawPrice)}</span>`;
 }
 
 function renderStats(categories) {
@@ -197,6 +326,7 @@ function pluralizeResults(n) {
 
 function updateFilterAvailability() {
   const term = normalize(searchTerm);
+  let activeFilterAvailable = activeFilter === "all";
   els.quickTabs.forEach((button) => {
     const filter = button.dataset.filter;
     if (filter === "all") {
@@ -205,26 +335,36 @@ function updateFilterAvailability() {
     }
     const hasMatch = menu.categories.some((category) =>
       category.items.some(
-        (item) =>
-          (filter === "food"
-            ? category.type === "food"
-            : filter === "drinks"
-            ? category.type === "drinks"
-            : Boolean(item.image)) && itemMatchesSearch(category, item, term)
+        (item) => itemMatchesFilterValue(filter, category, item) && itemMatchesSearch(category, item, term)
       )
     );
+    if (filter === activeFilter) activeFilterAvailable = hasMatch;
     button.disabled = !hasMatch;
     button.setAttribute("aria-disabled", String(!hasMatch));
   });
+
+  // A search can make the currently selected filter empty. Returning to
+  // "all" keeps the visitor from being stranded on a disabled active tab.
+  if (!activeFilterAvailable) {
+    activeFilter = "all";
+    els.quickTabs.forEach((button) => {
+      const isActive = button.dataset.filter === "all";
+      button.classList.toggle("active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
+    });
+  }
+  if (els.resetFilters) {
+    els.resetFilters.disabled = !searchTerm && activeFilter === "all";
+  }
 }
 
 function renderSections() {
+  updateFilterAvailability();
   const categories = getVisibleCategories();
   const itemCount = categories.reduce((sum, c) => sum + c.items.length, 0);
 
   renderStats(categories);
   renderSearchStatus(searchTerm, itemCount);
-  updateFilterAvailability();
 
   if (!categories.length) {
     els.sectionNav.innerHTML = "";
@@ -232,9 +372,9 @@ function renderSections() {
       <div class="empty">
         <p class="empty-title">Нічого не знайдено</p>
         <p class="empty-hint">Спробуйте інший запит або очистіть пошук.</p>
-        <button type="button" class="empty-reset" id="emptyResetBtn">Очистити пошук</button>
+        <button type="button" class="empty-reset" id="emptyResetBtn">Очистити пошук та фільтри</button>
       </div>`;
-    document.getElementById("emptyResetBtn")?.addEventListener("click", clearSearch);
+    document.getElementById("emptyResetBtn")?.addEventListener("click", resetMenuView);
     revealObserver?.disconnect();
     navObserver?.disconnect();
     return;
@@ -244,9 +384,9 @@ function renderSections() {
   els.menuGrid.innerHTML = categories
     .map(
       (category) => `
-        <section class="menu-section" id="${category.id}" aria-labelledby="${category.id}-heading">
+        <section class="menu-section" id="${escapeHtml(category.id)}" aria-labelledby="${escapeHtml(category.id)}-heading">
           <div class="section-head">
-            <h2 id="${category.id}-heading">${escapeHtml(category.name)}</h2>
+            <h2 id="${escapeHtml(category.id)}-heading">${escapeHtml(category.name)}</h2>
             <p>${escapeHtml(category.note || "")}</p>
           </div>
           <div class="items-grid">
@@ -317,7 +457,7 @@ function setupNavHighlightObserver() {
 /* ---------------------------------------------------------------------- */
 
 function applyHashOnRender(categories) {
-  const hash = decodeURIComponent(location.hash.replace("#", ""));
+  const hash = getHashId();
   if (!hash) return;
   const target = document.getElementById(hash);
   if (target && categories.some((c) => c.id === hash)) {
@@ -329,13 +469,23 @@ function applyHashOnRender(categories) {
 }
 
 window.addEventListener("hashchange", () => {
-  const hash = decodeURIComponent(location.hash.replace("#", ""));
+  const hash = getHashId();
   const target = hash && document.getElementById(hash);
   if (target) {
     target.scrollIntoView({ block: "start", behavior: prefersReducedMotion() ? "auto" : "smooth" });
     setActiveNavButton(hash);
   }
 });
+
+function getHashId() {
+  const rawHash = location.hash.slice(1);
+  if (!rawHash) return "";
+  try {
+    return decodeURIComponent(rawHash);
+  } catch {
+    return "";
+  }
+}
 
 /* ---------------------------------------------------------------------- */
 /* Quick view modal                                                       */
@@ -353,6 +503,7 @@ function openModal(id) {
   const found = findItemById(id);
   if (!found) return;
   const { category, item } = found;
+  const ingredientText = item.ingredients || item.description;
 
   lastFocusedBeforeModal = document.activeElement;
 
@@ -372,14 +523,25 @@ function openModal(id) {
       <p class="modal-category">${escapeHtml(category.name)}</p>
       <div class="modal-top">
         <h2 id="itemModalTitle">${escapeHtml(item.name)}</h2>
-        <span class="item-price">${priceLabel(item.price)}</span>
+        ${priceMarkup(item)}
       </div>
-      ${item.description ? `<p class="modal-desc">${escapeHtml(item.description)}</p>` : ""}
+      ${
+        item.description && item.ingredients && item.description !== item.ingredients
+          ? `<p class="modal-desc">${escapeHtml(item.description)}</p>`
+          : ""
+      }
+      ${
+        ingredientText
+          ? `<p class="modal-ingredients"><strong>Склад:</strong> ${escapeHtml(ingredientText)}</p>`
+          : ""
+      }
       ${item.weight ? `<p class="modal-weight">${escapeHtml(item.weight)}</p>` : ""}
     </div>
   `;
 
   els.modal.hidden = false;
+  els.modal.removeAttribute("aria-label");
+  els.modal.setAttribute("aria-labelledby", "itemModalTitle");
   document.body.classList.add("modal-open");
   document.getElementById("itemModalClose").addEventListener("click", closeModal);
   els.modalDialog.querySelector(".modal-close")?.focus();
@@ -387,6 +549,8 @@ function openModal(id) {
 
 function closeModal() {
   els.modal.hidden = true;
+  els.modal.removeAttribute("aria-labelledby");
+  els.modal.setAttribute("aria-label", "Деталі позиції меню");
   document.body.classList.remove("modal-open");
   els.modalDialog.innerHTML = "";
   lastFocusedBeforeModal?.focus?.();
@@ -435,10 +599,27 @@ els.menuGrid.addEventListener("keydown", (event) => {
 /* ---------------------------------------------------------------------- */
 
 function clearSearch() {
+  resetMenuView({ focusSearch: true });
+}
+
+function syncQuickTabs() {
+  els.quickTabs.forEach((tab) => {
+    const isActive = tab.dataset.filter === activeFilter;
+    tab.classList.toggle("active", isActive);
+    tab.setAttribute("aria-pressed", String(isActive));
+  });
+}
+
+function resetMenuView({ focusSearch = false } = {}) {
+  clearTimeout(debounceHandle);
   searchTerm = "";
   els.search.value = "";
+  activeFilter = "all";
+  syncQuickTabs();
   renderSections();
-  els.search.focus();
+  history.replaceState(null, "", `${location.pathname}${location.search}`);
+  window.scrollTo({ top: 0, behavior: prefersReducedMotion() ? "auto" : "smooth" });
+  if (focusSearch) els.search.focus();
 }
 
 const debouncedRender = debounce(() => renderSections(), 180);
@@ -449,17 +630,17 @@ els.search.addEventListener("input", (event) => {
 });
 
 els.searchClear.addEventListener("click", clearSearch);
+els.resetFilters.addEventListener("click", resetMenuView);
+els.brand.addEventListener("click", (event) => {
+  event.preventDefault();
+  resetMenuView();
+});
 
 els.quickTabs.forEach((button) => {
   button.addEventListener("click", () => {
     if (button.disabled) return;
     activeFilter = button.dataset.filter;
-    els.quickTabs.forEach((tab) => {
-      tab.classList.remove("active");
-      tab.setAttribute("aria-pressed", "false");
-    });
-    button.classList.add("active");
-    button.setAttribute("aria-pressed", "true");
+    syncQuickTabs();
     renderSections();
   });
 });
@@ -469,6 +650,8 @@ els.quickTabs.forEach((button) => {
 /* ---------------------------------------------------------------------- */
 
 function renderLoading() {
+  els.sectionNav.innerHTML = "";
+  els.stats.innerHTML = "";
   els.menuGrid.innerHTML = `
     <div class="loading-state" aria-hidden="true">
       ${Array.from({ length: 3 })
@@ -486,6 +669,8 @@ function renderLoading() {
 }
 
 function renderError(message) {
+  els.sectionNav.innerHTML = "";
+  els.stats.innerHTML = "";
   els.menuGrid.innerHTML = `
     <div class="empty error-state">
       <p class="empty-title">Меню тимчасово недоступне</p>
@@ -499,20 +684,78 @@ function validateMenuData(data) {
   if (!data || !Array.isArray(data.categories)) {
     throw new Error("Некоректний формат даних меню.");
   }
-  data.categories = data.categories.filter(
-    (category) => category && Array.isArray(category.items) && category.items.length > 0
-  );
-  if (!data.categories.length) {
-    throw new Error("Меню порожнє.");
-  }
-  data.categories.forEach((category) => {
-    category.items = category.items.filter((item) => item && item.name);
-    category.items.forEach((item) => {
-      if (item.price === undefined || item.price === null || item.price === "") {
-        item.price = "уточнюйте";
+  const usedCategoryIds = new Set();
+  const usedItemIds = new Set();
+
+  data.categories = data.categories
+    .filter((category) => category && Array.isArray(category.items))
+    .map((category, categoryIndex) => {
+      const rawCategoryId = String(category.id ?? "").trim();
+      const baseCategoryId = /^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(rawCategoryId)
+        ? rawCategoryId
+        : `category-${categoryIndex + 1}`;
+      let categoryId = baseCategoryId;
+      let categorySuffix = 2;
+      while (usedCategoryIds.has(categoryId)) {
+        categoryId = `${baseCategoryId}-${categorySuffix}`;
+        categorySuffix += 1;
       }
-    });
-  });
+      usedCategoryIds.add(categoryId);
+
+      const normalizedCategory = {
+        ...category,
+        id: categoryId,
+        name: String(category.name ?? "").trim() || `Розділ ${categoryIndex + 1}`,
+        note: String(category.note ?? "").trim(),
+        type: category.type === "drinks" ? "drinks" : "food",
+      };
+
+      normalizedCategory.items = category.items
+        .filter((item) => item && String(item.name ?? "").trim())
+        .map((item, itemIndex) => {
+          const rawItemId = String(item.id ?? "").trim();
+          const baseItemId = /^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(rawItemId)
+            ? rawItemId
+            : `${categoryId}-item-${itemIndex + 1}`;
+          let itemId = baseItemId;
+          let itemSuffix = 2;
+          while (usedItemIds.has(itemId)) {
+            itemId = `${baseItemId}-${itemSuffix}`;
+            itemSuffix += 1;
+          }
+          usedItemIds.add(itemId);
+
+          const width = Number(item.imgW);
+          const height = Number(item.imgH);
+          const description = String(item.description ?? "").trim();
+          const ingredients = String(item.ingredients ?? "").trim() || description;
+          return {
+            ...item,
+            id: itemId,
+            available: item.available !== false,
+            name: String(item.name).trim(),
+            description,
+            ingredients,
+            weight: String(item.weight ?? "").trim(),
+            image:
+              typeof item.image === "string" && /^[A-Za-z0-9_-]+$/.test(item.image.trim())
+                ? item.image.trim()
+                : "",
+            price:
+              item.price === undefined || item.price === null || String(item.price).trim() === ""
+                ? "уточнюйте"
+                : String(item.price).trim(),
+            imgW: Number.isFinite(width) && width > 0 ? Math.min(Math.round(width), 4000) : 400,
+            imgH: Number.isFinite(height) && height > 0 ? Math.min(Math.round(height), 4000) : 400,
+          };
+        })
+        .filter((item) => item.available);
+
+      return normalizedCategory;
+    })
+    .filter((category) => category.items.length > 0);
+
+  if (!data.categories.length) throw new Error("Меню порожнє.");
   return data;
 }
 
@@ -525,19 +768,55 @@ async function loadMenu() {
   return validateMenuData(data);
 }
 
+function renderMenuUpdatedDate() {
+  const updated = menu?.meta?.updated;
+  if (!els.menuUpdated || !updated) return;
+
+  const date = new Date(`${updated}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return;
+
+  els.menuUpdated.textContent = `оновлено ${new Intl.DateTimeFormat("uk-UA", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  }).format(date)}`;
+}
+
+function updateBackToTop() {
+  if (!els.backToTop) return;
+  els.backToTop.hidden = window.scrollY < 520;
+}
+
+function registerOfflineCache() {
+  if (!("serviceWorker" in navigator)) return;
+  navigator.serviceWorker.register("./sw.js").catch((error) => {
+    console.warn("Offline cache is unavailable:", error);
+  });
+}
+
 async function init() {
   renderLoading();
   try {
     menu = await loadMenu();
+    renderMenuUpdatedDate();
     renderSections();
+    registerOfflineCache();
   } catch (error) {
     console.error("Menu load failed:", error);
     renderError(
       error instanceof SyntaxError
         ? "Дані меню пошкоджені. Спробуйте оновити сторінку."
+        : error.message === "Меню порожнє."
+        ? "У файлі меню немає доступних позицій."
         : "Перевірте з'єднання з інтернетом і спробуйте ще раз."
     );
   }
 }
+
+els.backToTop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: prefersReducedMotion() ? "auto" : "smooth" });
+});
+window.addEventListener("scroll", updateBackToTop, { passive: true });
+updateBackToTop();
 
 init();
