@@ -1042,6 +1042,11 @@ body.modal-open {
   object-fit: cover;
 }
 
+.modal-photo img {
+  height: auto;
+  object-position: 50% 65%;
+}
+
 .modal-photo-fallback {
   display: flex;
   align-items: center;

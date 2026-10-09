@@ -46,9 +46,9 @@
           "weight": "150 г",
           "price": "260",
           "type": "food",
-          "image": "img_4886",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-cold-asorti-vialenoho-miasa",
+          "imgW": 810,
+          "imgH": 1440
         },
         {
           "id": "cold-asorti-blahorodnykh-syriv",
@@ -57,9 +57,9 @@
           "weight": "150/30 г",
           "price": "260",
           "type": "food",
-          "image": "img_0272",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-cold-asorti-blahorodnykh-syriv",
+          "imgW": 810,
+          "imgH": 1440
         },
         {
           "id": "cold-file-slabosolenoho-lososia",
@@ -68,9 +68,9 @@
           "weight": "70/30/40 г",
           "price": "260",
           "type": "food",
-          "image": "img_0180",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-cold-file-slabosolenoho-lososia",
+          "imgW": 807,
+          "imgH": 1440
         },
         {
           "id": "cold-oseledets-iz-kartopleiu",
@@ -121,9 +121,9 @@
           "weight": "230 г",
           "price": "290",
           "type": "food",
-          "image": "img_2947",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-salads-teplyi-salat-z-moreproduktamy",
+          "imgW": 810,
+          "imgH": 1440
         },
         {
           "id": "salads-tsezar-z-krevetkoiu",
@@ -143,9 +143,9 @@
           "weight": "200 г",
           "price": "270",
           "type": "food",
-          "image": "img_0686",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-salads-tsezar-z-kurkoiu-ta-bekonom",
+          "imgW": 810,
+          "imgH": 1440
         },
         {
           "id": "salads-teplyi-salat-z-teliatynoiu",
@@ -153,7 +153,10 @@
           "description": "У азіатському стилі: телятина, огірок, томат, теріякі, кунжут.",
           "weight": "220 г",
           "price": "270",
-          "type": "food"
+          "type": "food",
+          "image": "telegram-salads-teplyi-salat-z-teliatynoiu",
+          "imgW": 810,
+          "imgH": 1440
         },
         {
           "id": "salads-miks-salat-z-lososem-ta-parmezanom",
@@ -184,9 +187,9 @@
           "weight": "230 г",
           "price": "260",
           "type": "food",
-          "image": "img_3024",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-salads-hretskyi",
+          "imgW": 810,
+          "imgH": 1440
         }
       ]
     },
@@ -214,10 +217,7 @@
           "description": "Смажена риба з соусом.",
           "weight": "170/50 г",
           "price": "210",
-          "type": "food",
-          "image": "img_5537",
-          "imgW": 960,
-          "imgH": 720
+          "type": "food"
         },
         {
           "id": "hot-snacks-midii-v-mushliakh-u-vershkovomu-sousi",
@@ -334,9 +334,9 @@
           "weight": "2200 г",
           "price": "1810",
           "type": "food",
-          "image": "img_8073",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-boards-doshka-velyka",
+          "imgW": 720,
+          "imgH": 1280
         },
         {
           "id": "boards-doshka-mala",
@@ -522,9 +522,9 @@
           "weight": "200 г",
           "price": "270",
           "type": "food",
-          "image": "img_7591",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-grill-serdechka-kuriachi",
+          "imgW": 810,
+          "imgH": 1440
         },
         {
           "id": "grill-piv-kurcha",
@@ -532,7 +532,10 @@
           "description": "Подача з гарніром та соусом.",
           "weight": "350/200/50 г",
           "price": "280",
-          "type": "food"
+          "type": "food",
+          "image": "telegram-grill-piv-kurcha",
+          "imgW": 720,
+          "imgH": 1280
         },
         {
           "id": "grill-file-dorado-z-ovochamy",
@@ -689,9 +692,9 @@
           "weight": "180 г",
           "price": "100",
           "type": "food",
-          "image": "img_1472",
-          "imgW": 960,
-          "imgH": 720
+          "image": "telegram-sides-shampiniony-smazheni-z-chasnykovym-sousom",
+          "imgW": 804,
+          "imgH": 1440
         }
       ]
     },

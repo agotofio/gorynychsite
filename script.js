@@ -117,7 +117,6 @@ function itemMatchesSearch(category, item, term) {
   const haystack = normalize(
     [
       category.name,
-      category.note,
       item.name,
       item.description,
       item.ingredients,
@@ -152,7 +151,7 @@ function itemMatchesFilterValue(filter, category, item) {
     return ["hot-snacks", "beer", "beer-cocktails"].includes(category.id) ||
       /пивн|пив[ао]|сидр/i.test(normalize([category.name, item.name, item.description].join(" ")));
   }
-  if (filter === "cocktails") return category.id === "cocktails" || category.id === "beer-cocktails";
+  if (filter === "cocktails") return ["cocktails", "special-cocktails", "beer-cocktails"].includes(category.id);
   if (filter === "desserts") return category.id === "desserts";
   return true;
 }
@@ -503,7 +502,7 @@ function openModal(id) {
   const found = findItemById(id);
   if (!found) return;
   const { category, item } = found;
-  const ingredientText = item.ingredients || item.description;
+  const ingredientText = item.ingredients;
 
   lastFocusedBeforeModal = document.activeElement;
 
@@ -526,14 +525,14 @@ function openModal(id) {
         ${priceMarkup(item)}
       </div>
       ${
-        item.description && item.ingredients && item.description !== item.ingredients
+        item.description && item.description !== ingredientText
           ? `<p class="modal-desc">${escapeHtml(item.description)}</p>`
           : ""
       }
       ${
         ingredientText
           ? `<p class="modal-ingredients"><strong>Склад:</strong> ${escapeHtml(ingredientText)}</p>`
-          : ""
+          : `<p class="modal-ingredients">Склад уточнюйте у персоналу.</p>`
       }
       ${item.weight ? `<p class="modal-weight">${escapeHtml(item.weight)}</p>` : ""}
     </div>
@@ -728,7 +727,7 @@ function validateMenuData(data) {
           const width = Number(item.imgW);
           const height = Number(item.imgH);
           const description = String(item.description ?? "").trim();
-          const ingredients = String(item.ingredients ?? "").trim() || description;
+          const ingredients = String(item.ingredients ?? "").trim();
           return {
             ...item,
             id: itemId,
