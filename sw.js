@@ -35,7 +35,7 @@ self.addEventListener("fetch", (event) => {
   // remaining available from the last successful visit when offline.
   if (requestUrl.pathname.endsWith("/data/menu.json") || event.request.mode === "navigate" || /\/(?:script\.js|styles\.css)$/.test(requestUrl.pathname)) {
     event.respondWith(
-      fetch(event.request)
+      fetch(event.request, { cache: "no-cache" })
         .then((response) => {
           return caches
             .open(CACHE_NAME)
