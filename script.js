@@ -234,6 +234,7 @@ function setActiveNavButton(targetId) {
 
 function renderItem(category, item) {
   const hasImage = Boolean(item.image);
+  const headingTag = item.menuGroup ? "h4" : "h3";
   const photo = hasImage
     ? `<picture class="item-photo-wrap">
         <source srcset="assets/dishes/thumbs/${item.image}.avif" type="image/avif">
@@ -252,7 +253,7 @@ function renderItem(category, item) {
       ${photo}
       <div class="item-body">
         <div class="item-top">
-          <h3 class="item-name">${escapeHtml(item.name)}</h3>
+          <${headingTag} class="item-name">${escapeHtml(item.name)}</${headingTag}>
           ${priceMarkup(item)}
         </div>
         ${item.description ? `<p class="item-desc">${escapeHtml(item.description)}</p>` : ""}
@@ -261,6 +262,18 @@ function renderItem(category, item) {
       </div>
     </article>
   `;
+}
+
+function renderCategoryItems(category) {
+  let previousGroup = "";
+  return category.items.map((item) => {
+    const group = item.menuGroup || "";
+    const heading = group && group !== previousGroup
+      ? `<h3 class="menu-group-heading">${escapeHtml(group)}</h3>`
+      : "";
+    previousGroup = group;
+    return heading + renderItem(category, item);
+  }).join("");
 }
 
 function priceMarkup(item) {
@@ -390,7 +403,7 @@ function renderSections() {
             <p>${escapeHtml(category.note || "")}</p>
           </div>
           <div class="items-grid">
-            ${category.items.map((item) => renderItem(category, item)).join("")}
+            ${renderCategoryItems(category)}
           </div>
         </section>
       `
