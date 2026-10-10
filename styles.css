@@ -808,6 +808,15 @@ h1 {
   opacity: 0.75;
 }
 
+.item-price.pending-price {font-size: .8rem; white-space: normal;}
+.item-price.pending-price::after {content: none;}
+.photo-source {font-size: .75rem; overflow-wrap: anywhere; color: var(--muted, #999);}
+.photo-gallery {display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;}
+.gallery-thumb {width: 60px; height: 76px; padding: 2px; border: 2px solid transparent; border-radius: 8px; background: transparent; cursor: pointer;}
+.gallery-thumb img {width: 100%; height: 100%; object-fit: cover; border-radius: 4px;}
+.gallery-thumb.selected {border-color: #dbaa63;}
+.gallery-thumb:focus-visible {outline: 2px solid #fff; outline-offset: 3px;}
+
 .item-price.price-breakdown {
   display: inline-flex;
   min-width: 92px;
@@ -1044,7 +1053,8 @@ body.modal-open {
 
 .modal-photo img {
   height: auto;
-  object-position: 50% 65%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .modal-photo-fallback {

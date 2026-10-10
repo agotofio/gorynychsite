@@ -43,6 +43,7 @@ function ensureHostedControls() {
     ["beer", "До пива"],
     ["cocktails", "Коктейлі"],
     ["desserts", "Десерти"],
+    ["unknown", "Невідоме"],
   ];
   extraFilters.forEach(([filter, label]) => {
     if (!quickTabs || quickTabs.querySelector(`[data-filter="${filter}"]`)) return;
@@ -120,6 +121,7 @@ function itemMatchesSearch(category, item, term) {
       item.name,
       item.description,
       item.ingredients,
+      ...(item.photos || []).map((photo) => photo.source),
       item.weight,
       String(item.price ?? ""),
     ]
@@ -134,6 +136,8 @@ function itemMatchesFilter(category, item) {
 }
 
 function itemMatchesFilterValue(filter, category, item) {
+  if (filter === "unknown") return category.id === "unknown";
+  if (item.pending || category.id === "unknown") return false;
   if (filter === "all") return true;
   if (filter === "food") return category.type === "food";
   if (filter === "drinks") return category.type === "drinks";
@@ -264,6 +268,7 @@ function renderItem(category, item) {
 }
 
 function priceMarkup(item) {
+  if (item.pending) return `<span class="item-price pending-price">Уточнюється</span>`;
   const rawPrice = String(item.price ?? "уточнюйте").trim();
   const priceParts = rawPrice.split(/\s*\/\s*/).filter(Boolean);
   const unitParts = String(item.weight ?? "").split(/\s*\/\s*/).filter(Boolean);
@@ -503,6 +508,7 @@ function openModal(id) {
   if (!found) return;
   const { category, item } = found;
   const ingredientText = item.ingredients;
+  const photos = item.photos?.length ? item.photos : item.image ? [{image:item.image,width:item.imgW,height:item.imgH}] : [];
 
   lastFocusedBeforeModal = document.activeElement;
 
@@ -535,6 +541,9 @@ function openModal(id) {
           : `<p class="modal-ingredients">Склад уточнюйте у персоналу.</p>`
       }
       ${item.weight ? `<p class="modal-weight">${escapeHtml(item.weight)}</p>` : ""}
+      ${item.ingredientsSource ? `<p class="photo-source">Склад із підпису на фото ${escapeHtml(item.ingredientsSource)}.</p>` : ""}
+      ${photos.length ? `<p class="photo-source" id="photoSource">${escapeHtml(photos[0].source || "")}</p>` : ""}
+      ${photos.length > 1 ? `<div class="photo-gallery" aria-label="Фотографії позиції">${photos.map((entry,index)=>`<button type="button" class="gallery-thumb ${index===0?'selected':''}" data-photo-index="${index}" aria-pressed="${index===0}" aria-label="Фото ${index+1}: ${escapeHtml(entry.source || item.name)}"><img src="assets/dishes/thumbs/${entry.image}.webp" alt="" loading="lazy"></button>`).join('')}</div>` : ""}
     </div>
   `;
 
@@ -543,6 +552,18 @@ function openModal(id) {
   els.modal.setAttribute("aria-labelledby", "itemModalTitle");
   document.body.classList.add("modal-open");
   document.getElementById("itemModalClose").addEventListener("click", closeModal);
+  els.modalDialog.querySelectorAll('[data-photo-index]').forEach(button=>button.addEventListener('click',()=>{
+    const entry=photos[Number(button.dataset.photoIndex)];
+    const picture=els.modalDialog.querySelector('.modal-photo picture');
+    picture.querySelector('source').srcset=`assets/dishes/${entry.image}.webp`;
+    const img=picture.querySelector('img');img.src=`assets/dishes/${entry.image}.jpg`;
+    img.width=entry.width || 800;img.height=entry.height || 800;
+    picture.classList.remove('img-broken');
+    els.modalDialog.querySelector('#photoSource').textContent=entry.source || '';
+    els.modalDialog.querySelectorAll('[data-photo-index]').forEach(thumb=>{
+      thumb.classList.toggle('selected',thumb===button);thumb.setAttribute('aria-pressed',String(thumb===button));
+    });
+  }));
   els.modalDialog.querySelector(".modal-close")?.focus();
 }
 

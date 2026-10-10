@@ -7,7 +7,8 @@
     "instagram": "https://www.instagram.com/art_pub_gorynych/",
     "hours": "11:00-22:30",
     "currency": "грн",
-    "updated": "2026-08-22"
+    "updated": "2026-08-22",
+    "photosUpdated": "2026-10-10"
   },
   "categories": [
     {
@@ -46,9 +47,17 @@
           "weight": "150 г",
           "price": "260",
           "type": "food",
-          "image": "telegram-cold-asorti-vialenoho-miasa",
+          "image": "tg-73f35cce47694f",
           "imgW": 810,
-          "imgH": 1440
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-73f35cce47694f",
+              "source": "IMG_1164.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cold-asorti-blahorodnykh-syriv",
@@ -57,9 +66,17 @@
           "weight": "150/30 г",
           "price": "260",
           "type": "food",
-          "image": "telegram-cold-asorti-blahorodnykh-syriv",
+          "image": "tg-0800ea95e4b9da",
           "imgW": 810,
-          "imgH": 1440
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-0800ea95e4b9da",
+              "source": "IMG_1168.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cold-file-slabosolenoho-lososia",
@@ -68,9 +85,17 @@
           "weight": "70/30/40 г",
           "price": "260",
           "type": "food",
-          "image": "telegram-cold-file-slabosolenoho-lososia",
+          "image": "tg-001eba87ea7203",
           "imgW": 807,
-          "imgH": 1440
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-001eba87ea7203",
+              "source": "IMG_8960.JPG",
+              "width": 807,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cold-oseledets-iz-kartopleiu",
@@ -121,9 +146,23 @@
           "weight": "230 г",
           "price": "290",
           "type": "food",
-          "image": "telegram-salads-teplyi-salat-z-moreproduktamy",
+          "image": "tg-ecf8ef6cac0a2a",
           "imgW": 810,
-          "imgH": 1440
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-ecf8ef6cac0a2a",
+              "source": "IMG_1165.PNG",
+              "width": 810,
+              "height": 1440
+            },
+            {
+              "image": "tg-20e855bc87f15f",
+              "source": "IMG_1163.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "salads-tsezar-z-krevetkoiu",
@@ -143,9 +182,23 @@
           "weight": "200 г",
           "price": "270",
           "type": "food",
-          "image": "telegram-salads-tsezar-z-kurkoiu-ta-bekonom",
+          "image": "tg-b47638c326ede8",
           "imgW": 810,
-          "imgH": 1440
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-b47638c326ede8",
+              "source": "IMG_1158.PNG",
+              "width": 810,
+              "height": 1440
+            },
+            {
+              "image": "tg-70bf557f072250",
+              "source": "IMG_1166.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "salads-teplyi-salat-z-teliatynoiu",
@@ -154,9 +207,17 @@
           "weight": "220 г",
           "price": "270",
           "type": "food",
-          "image": "telegram-salads-teplyi-salat-z-teliatynoiu",
+          "image": "tg-877df84af00877",
           "imgW": 810,
-          "imgH": 1440
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-877df84af00877",
+              "source": "IMG_1160.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "salads-miks-salat-z-lososem-ta-parmezanom",
@@ -165,9 +226,17 @@
           "weight": "200 г",
           "price": "290",
           "type": "food",
-          "image": "img_1586",
-          "imgW": 960,
-          "imgH": 720
+          "image": "tg-882660f0ee5095",
+          "imgW": 810,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-882660f0ee5095",
+              "source": "IMG_1167.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "salads-kobb-salat",
@@ -187,9 +256,17 @@
           "weight": "230 г",
           "price": "260",
           "type": "food",
-          "image": "telegram-salads-hretskyi",
+          "image": "tg-13ec965e57c054",
           "imgW": 810,
-          "imgH": 1440
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-13ec965e57c054",
+              "source": "IMG_1162.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         }
       ]
     },
@@ -217,7 +294,24 @@
           "description": "Смажена риба з соусом.",
           "weight": "170/50 г",
           "price": "210",
-          "type": "food"
+          "type": "food",
+          "image": "tg-984d5e53b0c4d9",
+          "imgW": 958,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-984d5e53b0c4d9",
+              "source": "IMG_1343.JPG",
+              "width": 958,
+              "height": 1440
+            },
+            {
+              "image": "tg-ed0508dd0a5746",
+              "source": "IMG_1344.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "hot-snacks-midii-v-mushliakh-u-vershkovomu-sousi",
@@ -270,9 +364,17 @@
           "weight": "150/50 г",
           "price": "150",
           "type": "food",
-          "image": "img_0431",
-          "imgW": 960,
-          "imgH": 720
+          "image": "tg-f84b6a5efcda15",
+          "imgW": 1080,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-f84b6a5efcda15",
+              "source": "IMG_0431.JPG",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "hot-snacks-shampiniony-fri",
@@ -281,9 +383,17 @@
           "weight": "150/50 г",
           "price": "150",
           "type": "food",
-          "image": "img_3390",
-          "imgW": 960,
-          "imgH": 720
+          "image": "tg-cf3a5daea0c429",
+          "imgW": 1080,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-cf3a5daea0c429",
+              "source": "IMG_3391.JPG",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "hot-snacks-vukha-svyniachi",
@@ -334,9 +444,17 @@
           "weight": "2200 г",
           "price": "1810",
           "type": "food",
-          "image": "telegram-boards-doshka-velyka",
+          "image": "tg-d71c54930f56a5",
           "imgW": 720,
-          "imgH": 1280
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-d71c54930f56a5",
+              "source": "E2F237A8-9E2B-4913-BD51-E4E4F872AA37.JPG",
+              "width": 720,
+              "height": 1280
+            }
+          ]
         },
         {
           "id": "boards-doshka-mala",
@@ -522,9 +640,17 @@
           "weight": "200 г",
           "price": "270",
           "type": "food",
-          "image": "telegram-grill-serdechka-kuriachi",
+          "image": "tg-1a929adc61b86f",
           "imgW": 810,
-          "imgH": 1440
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-1a929adc61b86f",
+              "source": "IMG_1156.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "grill-piv-kurcha",
@@ -533,9 +659,17 @@
           "weight": "350/200/50 г",
           "price": "280",
           "type": "food",
-          "image": "telegram-grill-piv-kurcha",
+          "image": "tg-043d15aa348532",
           "imgW": 720,
-          "imgH": 1280
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-043d15aa348532",
+              "source": "30DC0F76-BA5E-4B5E-958D-1AD3948F7F11.JPG",
+              "width": 720,
+              "height": 1280
+            }
+          ]
         },
         {
           "id": "grill-file-dorado-z-ovochamy",
@@ -692,9 +826,17 @@
           "weight": "180 г",
           "price": "100",
           "type": "food",
-          "image": "telegram-sides-shampiniony-smazheni-z-chasnykovym-sousom",
-          "imgW": 804,
-          "imgH": 1440
+          "image": "tg-cab724acbc33ef",
+          "imgW": 662,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-cab724acbc33ef",
+              "source": "IMG_1170.PNG",
+              "width": 662,
+              "height": 1440
+            }
+          ]
         }
       ]
     },
@@ -836,7 +978,24 @@
           "description": "Кегове темне пиво.",
           "weight": "0,3 / 0,5 л",
           "price": "140 / 190",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-1b9cc119173362",
+          "imgW": 720,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-1b9cc119173362",
+              "source": "IMG_3553.PNG",
+              "width": 720,
+              "height": 1280
+            },
+            {
+              "image": "tg-5e45b20d1f0cf7",
+              "source": "IMG_8282.PNG",
+              "width": 664,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "beer-grimbergen-blanche",
@@ -1529,7 +1688,36 @@
           "description": "Апероль, просекко, содова.",
           "weight": "",
           "price": "190",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-42f3b5f3c7e743",
+          "imgW": 948,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-42f3b5f3c7e743",
+              "source": "апероль шприц.jpg",
+              "width": 948,
+              "height": 1440
+            },
+            {
+              "image": "tg-3a2b8f337bb921",
+              "source": "IMG_4657.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-467b3c23469d44",
+              "source": "IMG_4658.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-dd07f0bd2f8e2e",
+              "source": "IMG_4659.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
         },
         {
           "id": "cocktails-pina-colada",
@@ -1537,7 +1725,18 @@
           "description": "Captain Morgan White, кокосовий лікер, ананасовий сік, свіжий ананас.",
           "weight": "",
           "price": "180",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-7e5c59a16287a5",
+          "imgW": 960,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-7e5c59a16287a5",
+              "source": "пина колада.jpg",
+              "width": 960,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cocktails-bloody-mary",
@@ -1545,7 +1744,18 @@
           "description": "Zubrowka Biala, томатний сік, ворчестерський соус, табаско, сіль, перець.",
           "weight": "",
           "price": "180",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-7d44626b166c9e",
+          "imgW": 960,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-7d44626b166c9e",
+              "source": "кровавая мэри.jpg",
+              "width": 960,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cocktails-clover-club",
@@ -1553,7 +1763,18 @@
           "description": "Gordon's London Dry, малиновий топінг, фреш лайма, білок.",
           "weight": "",
           "price": "170",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-5bf2bab7c4c97d",
+          "imgW": 1440,
+          "imgH": 960,
+          "photos": [
+            {
+              "image": "tg-5bf2bab7c4c97d",
+              "source": "клавер клаб.jpg",
+              "width": 1440,
+              "height": 960
+            }
+          ]
         },
         {
           "id": "cocktails-french-75",
@@ -1561,7 +1782,18 @@
           "description": "Gordon's London Dry, просекко, цукровий сироп, лимонний фреш.",
           "weight": "",
           "price": "180",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-fdf11fa6d040bd",
+          "imgW": 1440,
+          "imgH": 960,
+          "photos": [
+            {
+              "image": "tg-fdf11fa6d040bd",
+              "source": "френч 75.jpg",
+              "width": 1440,
+              "height": 960
+            }
+          ]
         },
         {
           "id": "cocktails-mai-tai",
@@ -1569,7 +1801,18 @@
           "description": "Captain Morgan White, Dark, трипл сек, орже, фреш лайма.",
           "weight": "",
           "price": "180",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-c3d152a5b3c737",
+          "imgW": 960,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-c3d152a5b3c737",
+              "source": "май тай.jpg",
+              "width": 960,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cocktails-negroni",
@@ -1577,7 +1820,18 @@
           "description": "Червоний вермут, кампарі, Gordon's London Dry.",
           "weight": "",
           "price": "180",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-8623a93a30f17a",
+          "imgW": 1364,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-8623a93a30f17a",
+              "source": "нигрони.jpg",
+              "width": 1364,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cocktails-whiskey-sour",
@@ -1593,7 +1847,18 @@
           "description": "Captain Morgan White, Dark, трипл сек, гренадін, апельсин, ананас, лимонний фреш, ангостура.",
           "weight": "",
           "price": "190",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-aa12572cbc5f18",
+          "imgW": 960,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-aa12572cbc5f18",
+              "source": "плантерс панч.jpg",
+              "width": 960,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cocktails-mojito",
@@ -1601,7 +1866,18 @@
           "description": "Captain Morgan Gold, м'ята, спрайт, содова, тростинний цукор.",
           "weight": "",
           "price": "200",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-70ac6f3910d2a3",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-70ac6f3910d2a3",
+              "source": "IMG_1316.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
         },
         {
           "id": "cocktails-long-island",
@@ -1609,7 +1885,18 @@
           "description": "Горілка, ром, джин, текіла, трипл сек, лимонний фреш, цукровий сироп, кола.",
           "weight": "",
           "price": "200",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-1e0f0b486f3b2d",
+          "imgW": 1440,
+          "imgH": 960,
+          "photos": [
+            {
+              "image": "tg-1e0f0b486f3b2d",
+              "source": "лонг айленд.jpg",
+              "width": 1440,
+              "height": 960
+            }
+          ]
         },
         {
           "id": "cocktails-skullduggery",
@@ -1617,7 +1904,18 @@
           "description": "Captain Morgan White, Dark, ананасовий сік, маракуя, кокосовий крем.",
           "weight": "",
           "price": "190",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-e35c8e30419d43",
+          "imgW": 1440,
+          "imgH": 960,
+          "photos": [
+            {
+              "image": "tg-e35c8e30419d43",
+              "source": "скулл дагери.jpg",
+              "width": 1440,
+              "height": 960
+            }
+          ]
         },
         {
           "id": "cocktails-zombie",
@@ -1625,7 +1923,18 @@
           "description": "Captain Morgan White, Dark, Gold, золотий ром, фреш лайма, маракуя, цукровий сироп.",
           "weight": "",
           "price": "190",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-c4d8b52967652e",
+          "imgW": 960,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-c4d8b52967652e",
+              "source": "зомби.jpg",
+              "width": 960,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cocktails-the-last-dragon",
@@ -1649,7 +1958,18 @@
           "description": "Captain Morgan White, Dark, апельсиновий сік, фреш лайма, цукровий сироп, пюре маракуї.",
           "weight": "",
           "price": "190",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-43ecd988af5ff9",
+          "imgW": 960,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-43ecd988af5ff9",
+              "source": "чьеф Лапу Лапу.jpg",
+              "width": 960,
+              "height": 1440
+            }
+          ]
         },
         {
           "id": "cocktails-espresso-martini",
@@ -1775,10 +2095,53 @@
         {
           "id": "special-cocktails-baby-blue",
           "name": "Baby Blue",
-          "description": "Горілка ванільна, лимонний сік, блю кюрасао, персик, білок.",
+          "description": "Ванільна горілка, сік лимона, лікер блю кюрасао, лікер персик, білок.",
           "weight": "",
           "price": "170",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-31aa853774c369",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-31aa853774c369",
+              "source": "IMG_1948.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-5533b7f0b738d5",
+              "source": "IMG_0789.JPG",
+              "width": 720,
+              "height": 1280
+            },
+            {
+              "image": "tg-df0cf5804dff3a",
+              "source": "IMG_1732.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-d4e4525a5c951a",
+              "source": "IMG_1749.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-1128d438604020",
+              "source": "IMG_1949.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-8ad17b7229d23f",
+              "source": "IMG_1950.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ],
+          "ingredients": "Ванільна горілка, сік лимона, лікер блю кюрасао, лікер персик, білок.",
+          "ingredientsSource": "IMG_0789.JPG"
         },
         {
           "id": "special-cocktails-mozi-moon",
@@ -1799,10 +2162,65 @@
         {
           "id": "special-cocktails-very-peri",
           "name": "Very Peri",
-          "description": "Gordon's London Dry, банановий лікер, персиковий лікер, бузина, лимонний сік, білок.",
+          "description": "Gordon’s, лікер банан, лікер персик, сироп бузина, сік лимона, білок.",
           "weight": "",
           "price": "180",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-081efca421ea91",
+          "imgW": 1080,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-081efca421ea91",
+              "source": "IMG_0021.JPG",
+              "width": 1080,
+              "height": 1440
+            },
+            {
+              "image": "tg-b8593975ab765d",
+              "source": "IMG_0788.JPG",
+              "width": 720,
+              "height": 1280
+            },
+            {
+              "image": "tg-4ec48b4ba22c7a",
+              "source": "IMG_0017.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-7d20a8534106c8",
+              "source": "IMG_0018.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-68e4e293fe5e25",
+              "source": "IMG_0019.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-82a85ff43588c4",
+              "source": "IMG_0020.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-20d089deaf9ba9",
+              "source": "IMG_0022.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-fd183a6a1cdb15",
+              "source": "IMG_2611.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ],
+          "ingredients": "Gordon’s, лікер банан, лікер персик, сироп бузина, сік лимона, білок.",
+          "ingredientsSource": "IMG_0788.JPG"
         },
         {
           "id": "special-cocktails-strawberry-kiss",
@@ -1815,10 +2233,47 @@
         {
           "id": "special-cocktails-chili-sour",
           "name": "Chili Sour",
-          "description": "Піско, імбирний сироп, лимонний сік, соус шрірача, білок.",
+          "description": "Бурбон, піско, сироп імбиру, лимонний сік, соус шрірача, білок.",
           "weight": "",
           "price": "170",
-          "type": "drinks"
+          "type": "drinks",
+          "image": "tg-0bb3e013b9ce6d",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-0bb3e013b9ce6d",
+              "source": "IMG_1744.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-a244d2df07a13a",
+              "source": "IMG_0785.JPG",
+              "width": 810,
+              "height": 1440
+            },
+            {
+              "image": "tg-e780ef51322768",
+              "source": "IMG_1743.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-44221edb8b805f",
+              "source": "IMG_1745.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-4795a14cad3e5b",
+              "source": "IMG_1746.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ],
+          "ingredients": "Бурбон, піско, сироп імбиру, лимонний сік, соус шрірача, білок.",
+          "ingredientsSource": "IMG_0785.JPG"
         }
       ]
     },
@@ -1997,6 +2452,731 @@
           "weight": "",
           "price": "120",
           "type": "drinks"
+        }
+      ]
+    },
+    {
+      "id": "unknown",
+      "name": "Невідоме",
+      "note": "Фото для уточнення. Належність до меню, назву, склад і ціну ще не підтверджено.",
+      "icon": "question",
+      "type": "unknown",
+      "items": [
+        {
+          "id": "unknown-9ae88df109",
+          "name": "Blood Moon",
+          "description": "Потрібне уточнення. Файли: IMG_0003.JPG, IMG_0004.JPG, IMG_0787.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-9ae88df109fd18",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-9ae88df109fd18",
+              "source": "IMG_0003.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-fbf6660df4a5c1",
+              "source": "IMG_0004.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-2c137175441b14",
+              "source": "IMG_0787.JPG",
+              "width": 720,
+              "height": 1280
+            }
+          ],
+          "ingredients": "Gordon’s Pink, сік лимона, лікер кокос, гренадин, білок.",
+          "ingredientsSource": "IMG_0787.JPG"
+        },
+        {
+          "id": "unknown-7eac0819a1",
+          "name": "Porn Star",
+          "description": "Потрібне уточнення. Файли: IMG_1963.JPG, IMG_0786.JPG, IMG_1962.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-7eac0819a14afb",
+          "imgW": 664,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-7eac0819a14afb",
+              "source": "IMG_1963.JPG",
+              "width": 664,
+              "height": 1440
+            },
+            {
+              "image": "tg-9ef153bee86402",
+              "source": "IMG_0786.JPG",
+              "width": 720,
+              "height": 1280
+            },
+            {
+              "image": "tg-af0f93d52e38c6",
+              "source": "IMG_1962.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-3643bea46a",
+          "name": "Talisker 10",
+          "description": "Потрібне уточнення. Файли: IMG_2201.JPG, IMG_2203.JPG, IMG_2204.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-3643bea46aefb3",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-3643bea46aefb3",
+              "source": "IMG_2201.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-c6677ea5106bfd",
+              "source": "IMG_2203.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-4ce1c9f4651376",
+              "source": "IMG_2204.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-3204903386",
+          "name": "Коктейль у рожевому високому келиху",
+          "description": "Потрібне уточнення. Файли: IMG_0013.JPG, IMG_1734.JPG, IMG_1735.JPG, IMG_1736.JPG, IMG_1751.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-3204903386c49b",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-3204903386c49b",
+              "source": "IMG_0013.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-d6b7d2008e5b5e",
+              "source": "IMG_1734.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-359f8c0e486bb1",
+              "source": "IMG_1735.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-02a4044cb8d78e",
+              "source": "IMG_1736.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-57196a42633fa4",
+              "source": "IMG_1751.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-0c1260e35e",
+          "name": "Коктейль у високому келиху з вишнею",
+          "description": "Потрібне уточнення. Файли: IMG_1737.JPG, IMG_1738.JPG, IMG_1739.JPG, IMG_1747.JPG, IMG_1748.JPG, IMG_1954.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-0c1260e35e2df7",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-0c1260e35e2df7",
+              "source": "IMG_1737.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-9009bec5ce2b8b",
+              "source": "IMG_1738.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-f94b7055c206be",
+              "source": "IMG_1739.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-dc4b86b56b9e8b",
+              "source": "IMG_1747.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-6f23f7ae383f27",
+              "source": "IMG_1748.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-16ec3d22e165b8",
+              "source": "IMG_1954.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-0aa9de9a91",
+          "name": "Бурштиновий коктейль з вишнею",
+          "description": "Потрібне уточнення. Файли: IMG_1740.JPG, IMG_1741.JPG, IMG_1750.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-0aa9de9a9133f0",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-0aa9de9a9133f0",
+              "source": "IMG_1740.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-614529b219fcf7",
+              "source": "IMG_1741.JPG",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "image": "tg-f334eb9bb7722e",
+              "source": "IMG_1750.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-9508177dbb",
+          "name": "Amaretto Sour",
+          "description": "Потрібне уточнення. Файли: амаретто сауер.jpg",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-9508177dbb8573",
+          "imgW": 1440,
+          "imgH": 960,
+          "photos": [
+            {
+              "image": "tg-9508177dbb8573",
+              "source": "амаретто сауер.jpg",
+              "width": 1440,
+              "height": 960
+            }
+          ]
+        },
+        {
+          "id": "unknown-d5ff342a5e",
+          "name": "Bobby Burns",
+          "description": "Потрібне уточнення. Файли: бобби бьорнс.jpg",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-d5ff342a5ed5fb",
+          "imgW": 960,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-d5ff342a5ed5fb",
+              "source": "бобби бьорнс.jpg",
+              "width": 960,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-0b4f1fbab2",
+          "name": "Brown Derby",
+          "description": "Потрібне уточнення. Файли: броун дерби.jpg",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-0b4f1fbab23b32",
+          "imgW": 1440,
+          "imgH": 960,
+          "photos": [
+            {
+              "image": "tg-0b4f1fbab23b32",
+              "source": "броун дерби.jpg",
+              "width": 1440,
+              "height": 960
+            }
+          ]
+        },
+        {
+          "id": "unknown-e177630b76",
+          "name": "Boulevardier",
+          "description": "Потрібне уточнення. Файли: бульвардье.jpg",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-e177630b768528",
+          "imgW": 667,
+          "imgH": 1000,
+          "photos": [
+            {
+              "image": "tg-e177630b768528",
+              "source": "бульвардье.jpg",
+              "width": 667,
+              "height": 1000
+            }
+          ]
+        },
+        {
+          "id": "unknown-90a9ba71e9",
+          "name": "Monk’s Sour",
+          "description": "Потрібне уточнення. Файли: монкс сауэр.jpg",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-90a9ba71e9019e",
+          "imgW": 960,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-90a9ba71e9019e",
+              "source": "монкс сауэр.jpg",
+              "width": 960,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-e2753af975",
+          "name": "Old Fashioned",
+          "description": "Потрібне уточнення. Файли: олд фешн.jpg",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-e2753af9751c23",
+          "imgW": 1440,
+          "imgH": 960,
+          "photos": [
+            {
+              "image": "tg-e2753af9751c23",
+              "source": "олд фешн.jpg",
+              "width": 1440,
+              "height": 960
+            }
+          ]
+        },
+        {
+          "id": "unknown-126b6f9799",
+          "name": "Carlsberg 0.0",
+          "description": "Потрібне уточнення. Файли: IMG_5353.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-126b6f97991ac7",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-126b6f97991ac7",
+              "source": "IMG_5353.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-8ec4acac59",
+          "name": "Невідоме · 5FEBB236-F57F-4B21-8776-8F2EE4BE7D15",
+          "description": "Потрібне уточнення. Файли: 5FEBB236-F57F-4B21-8776-8F2EE4BE7D15.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-8ec4acac59a465",
+          "imgW": 720,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-8ec4acac59a465",
+              "source": "5FEBB236-F57F-4B21-8776-8F2EE4BE7D15.JPG",
+              "width": 720,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-88917f98b4",
+          "name": "Невідоме · FC931B18-3188-49D7-8F52-DF9B3BB7C6DD",
+          "description": "Потрібне уточнення. Файли: FC931B18-3188-49D7-8F52-DF9B3BB7C6DD.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-88917f98b4e7d3",
+          "imgW": 720,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-88917f98b4e7d3",
+              "source": "FC931B18-3188-49D7-8F52-DF9B3BB7C6DD.JPG",
+              "width": 720,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-9bed2fa2d1",
+          "name": "Невідоме · IMG_0007",
+          "description": "Потрібне уточнення. Файли: IMG_0007.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-9bed2fa2d180e5",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-9bed2fa2d180e5",
+              "source": "IMG_0007.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-d83e3142ce",
+          "name": "Невідоме · IMG_0216",
+          "description": "Потрібне уточнення. Файли: IMG_0216.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-d83e3142ce811d",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-d83e3142ce811d",
+              "source": "IMG_0216.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-136fd998cf",
+          "name": "Невідоме · IMG_0218",
+          "description": "Потрібне уточнення. Файли: IMG_0218.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-136fd998cf3342",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-136fd998cf3342",
+              "source": "IMG_0218.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-184153ef57",
+          "name": "Невідоме · IMG_0923",
+          "description": "Потрібне уточнення. Файли: IMG_0923.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-184153ef57a69c",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-184153ef57a69c",
+              "source": "IMG_0923.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-d881b880c4",
+          "name": "Невідоме · IMG_1157",
+          "description": "Потрібне уточнення. Файли: IMG_1157.PNG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-d881b880c42bbb",
+          "imgW": 810,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-d881b880c42bbb",
+              "source": "IMG_1157.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-2322242e5d",
+          "name": "Невідоме · IMG_1159",
+          "description": "Потрібне уточнення. Файли: IMG_1159.PNG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-2322242e5d2177",
+          "imgW": 810,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-2322242e5d2177",
+              "source": "IMG_1159.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-f5aa9b35ca",
+          "name": "Невідоме · IMG_1161",
+          "description": "Потрібне уточнення. Файли: IMG_1161.PNG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-f5aa9b35caa826",
+          "imgW": 810,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-f5aa9b35caa826",
+              "source": "IMG_1161.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-c6537df169",
+          "name": "Невідоме · IMG_1169",
+          "description": "Потрібне уточнення. Файли: IMG_1169.PNG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-c6537df169adf9",
+          "imgW": 1152,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-c6537df169adf9",
+              "source": "IMG_1169.PNG",
+              "width": 1152,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-8cf85269e5",
+          "name": "Невідоме · IMG_1341",
+          "description": "Потрібне уточнення. Файли: IMG_1341.PNG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-8cf85269e5ea61",
+          "imgW": 810,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-8cf85269e5ea61",
+              "source": "IMG_1341.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-e600e6c433",
+          "name": "Невідоме · IMG_1342",
+          "description": "Потрібне уточнення. Файли: IMG_1342.PNG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-e600e6c433be99",
+          "imgW": 810,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-e600e6c433be99",
+              "source": "IMG_1342.PNG",
+              "width": 810,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-e9a9fad923",
+          "name": "Невідоме · IMG_1631",
+          "description": "Потрібне уточнення. Файли: IMG_1631.HEIC",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-e9a9fad923725d",
+          "imgW": 1080,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-e9a9fad923725d",
+              "source": "IMG_1631.HEIC",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-b170e4c3d3",
+          "name": "Невідоме · IMG_1633",
+          "description": "Потрібне уточнення. Файли: IMG_1633.HEIC",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-b170e4c3d32b83",
+          "imgW": 1080,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-b170e4c3d32b83",
+              "source": "IMG_1633.HEIC",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-377daf65dd",
+          "name": "Невідоме · IMG_1814",
+          "description": "Потрібне уточнення. Файли: IMG_1814.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-377daf65dddb90",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-377daf65dddb90",
+              "source": "IMG_1814.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-41e4821d1b",
+          "name": "Невідоме · IMG_1929",
+          "description": "Потрібне уточнення. Файли: IMG_1929.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-41e4821d1bc087",
+          "imgW": 664,
+          "imgH": 1440,
+          "photos": [
+            {
+              "image": "tg-41e4821d1bc087",
+              "source": "IMG_1929.JPG",
+              "width": 664,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "unknown-1e1b6a8553",
+          "name": "Невідоме · IMG_2362",
+          "description": "Потрібне уточнення. Файли: IMG_2362.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-1e1b6a8553f8a7",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-1e1b6a8553f8a7",
+              "source": "IMG_2362.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-370a9bd27f",
+          "name": "Невідоме · IMG_3091",
+          "description": "Потрібне уточнення. Файли: IMG_3091.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-370a9bd27f7f6e",
+          "imgW": 720,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-370a9bd27f7f6e",
+              "source": "IMG_3091.JPG",
+              "width": 720,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-c1d7484a04",
+          "name": "Невідоме · IMG_3394",
+          "description": "Потрібне уточнення. Файли: IMG_3394.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-c1d7484a04c4a2",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-c1d7484a04c4a2",
+              "source": "IMG_3394.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-329e55dc37",
+          "name": "Невідоме · IMG_5912",
+          "description": "Потрібне уточнення. Файли: IMG_5912.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-329e55dc379321",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-329e55dc379321",
+              "source": "IMG_5912.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "id": "unknown-e4c5210e4c",
+          "name": "Невідоме · IMG_7127",
+          "description": "Потрібне уточнення. Файли: IMG_7127.JPG",
+          "type": "unknown",
+          "pending": true,
+          "image": "tg-e4c5210e4c8da7",
+          "imgW": 960,
+          "imgH": 1280,
+          "photos": [
+            {
+              "image": "tg-e4c5210e4c8da7",
+              "source": "IMG_7127.JPG",
+              "width": 960,
+              "height": 1280
+            }
+          ]
         }
       ]
     }
