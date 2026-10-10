@@ -1195,6 +1195,14 @@ body.modal-open {
 /* ---------- Responsive: tablet ---------- */
 
 @media (max-width: 1100px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-tabs {
+    justify-content: flex-start;
+  }
+
   .intro {
     grid-template-columns: 1fr;
   }
