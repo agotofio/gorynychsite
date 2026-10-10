@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://artpubgorynych.com.ua/sitemap.xml
+Sitemap: https://agotofio.github.io/gorynychsite/sitemap.xml

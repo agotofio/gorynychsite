@@ -5,11 +5,13 @@
     "address": "просп. Перемоги, 104",
     "phone": "+380990639544",
     "instagram": "https://www.instagram.com/art_pub_gorynych/",
-    "hours": "11:00-22:30",
+    "hours": "11:00-23:00",
     "currency": "грн",
     "updated": "2026-10-10",
     "photosUpdated": "2026-10-10",
-    "menuSource": "9 фотографій друкованого меню, надані 10.10.2026"
+    "menuSource": "9 фотографій друкованого меню, надані 10.10.2026",
+    "hoursSource": "https://www.instagram.com/art_pub_gorynych/",
+    "hoursVerifiedOn": "2026-10-10"
   },
   "categories": [
     {
@@ -75,7 +77,10 @@
           "menuSource": "Фото 7 · друковане меню",
           "description": "Кабаноси, курка мед-гірчиця, курка пірі-пірі.",
           "ingredients": "Кабаноси, курка мед-гірчиця, курка пірі-пірі.",
-          "ingredientsSource": "Фото 7 · друковане меню"
+          "ingredientsSource": "Фото 7 · друковане меню",
+          "image": "img_3908",
+          "imgW": 960,
+          "imgH": 720
         },
         {
           "id": "cold-asorti-blahorodnykh-syriv",
@@ -144,9 +149,6 @@
           "weight": "500/50/50 г",
           "price": "410",
           "type": "food",
-          "image": "img_3908",
-          "imgW": 960,
-          "imgH": 720,
           "menuSource": "Фото 7 · друковане меню",
           "description": "Маринована підчеревина, домашня ковбаса, квашена капуста, мариновані огірки та помідори, хрін та грінки.",
           "ingredients": "Маринована підчеревина, домашня ковбаса, квашена капуста, мариновані огірки та помідори, хрін та грінки.",
@@ -456,9 +458,6 @@
           "weight": "250/50 г",
           "price": "210",
           "type": "food",
-          "image": "img_9245",
-          "imgW": 960,
-          "imgH": 720,
           "aliases": [
             "Курячі крильця в соєво-медовій глазурі"
           ],
@@ -547,9 +546,6 @@
           "weight": "550/180 г",
           "price": "560",
           "type": "food",
-          "image": "img_6616",
-          "imgW": 960,
-          "imgH": 720,
           "menuSource": "Фото 8 · друковане меню",
           "description": "Картопля діпи, цибулеві кільця, грінки часникові, курячі стріпси, соус сирний.",
           "ingredients": "Картопля діпи, цибулеві кільця, грінки часникові, курячі стріпси, соус сирний.",
@@ -644,9 +640,6 @@
           "weight": "700/150 г",
           "price": "1700",
           "type": "food",
-          "image": "img_4672",
-          "imgW": 960,
-          "imgH": 720,
           "aliases": [
             "Дошка креветок"
           ],
@@ -1528,12 +1521,15 @@
         },
         {
           "id": "spirits-kaponi-3",
-          "name": "Капоні 3*",
+          "name": "Kanoni 3*",
           "description": "Бренді, 40%.",
           "weight": "50 мл",
           "price": "65",
           "type": "drinks",
-          "menuSource": "Фото 1 · друковане меню"
+          "menuSource": "Фото 1 · друковане меню",
+          "aliases": [
+            "Капоні 3*"
+          ]
         },
         {
           "id": "spirits-koblevo-reserve-vs",
@@ -1801,7 +1797,7 @@
     {
       "id": "infusions",
       "name": "Фірмові наливки та напої",
-      "note": "50 мл / 500 мл",
+      "note": "наливки та безалкогольні напої",
       "icon": "flask",
       "type": "drinks",
       "items": [
@@ -3615,6 +3611,26 @@
           "type": "unknown",
           "pending": true,
           "image": "img_8908",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "unknown-legacy-img-6616",
+          "name": "М’ясна дошка · img_6616",
+          "type": "unknown",
+          "pending": true,
+          "description": "На фото реберця та м’ясо на грилі. Не відповідає складу сирного чану; назву дошки потрібно уточнити.",
+          "image": "img_6616",
+          "imgW": 960,
+          "imgH": 720
+        },
+        {
+          "id": "unknown-legacy-img-4672",
+          "name": "Асорті морепродуктів · img_4672",
+          "type": "unknown",
+          "pending": true,
+          "description": "На фото мідії, кальмар та інші морепродукти. Прив’язку до дошки креветок не підтверджено.",
+          "image": "img_4672",
           "imgW": 960,
           "imgH": 720
         }

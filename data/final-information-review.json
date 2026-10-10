@@ -1,0 +1,35 @@
+{
+  "verifiedOn": "2026-10-10",
+  "instagram": {
+    "url": "https://www.instagram.com/art_pub_gorynych/",
+    "hours": "11:00–23:00",
+    "phone": "+380990639544",
+    "postAccess": "Login required",
+    "deliveryLink": "Redirects to Glovo App Store; restaurant menu unavailable in browser"
+  },
+  "corrections": [
+    {
+      "itemId": "cold-zakuska-skarb-natsii",
+      "correction": "img_3908: сушені снеки та кабаноси; перенесено до асорті снеків до пива."
+    },
+    {
+      "itemId": "hot-snacks-kuriachi-kryltsia-v-soievo-medovii-hlazuri",
+      "correction": "Прибрано дубль фото img_9245, яке використовується для Баффало; соєво-медову глазур не підтверджено."
+    },
+    {
+      "itemId": "hot-snacks-syrnyi-chan-drakona",
+      "correction": "На фото реберця та м’ясо на грилі. Не відповідає складу сирного чану; назву дошки потрібно уточнити."
+    },
+    {
+      "itemId": "boards-doshka-krevetok",
+      "correction": "На фото мідії, кальмар та інші морепродукти. Прив’язку до дошки креветок не підтверджено."
+    }
+  ],
+  "brandCorrection": {
+    "before": "Капоні 3*",
+    "after": "Kanoni 3*",
+    "source": "Фото 1"
+  },
+  "knownItems": 225,
+  "pendingItems": 35
+}
