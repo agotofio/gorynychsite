@@ -1899,21 +1899,21 @@
           "id": "infusions-sik-v-asortymenti",
           "name": "Сік в асортименті",
           "description": "Уточнюйте смаки.",
-          "weight": "",
+          "weight": "250 мл / 1 л",
           "price": "65 / 260",
           "type": "drinks",
           "menuSource": "Фото 1 · друковане меню",
-          "portionNote": "Об’єми двох порцій не підписані на фото меню."
+          "portionSource": "Підтверджено власником 10.10.2026"
         },
         {
           "id": "infusions-uzvar",
           "name": "Узвар",
           "description": "Домашній напій.",
-          "weight": "",
+          "weight": "250 мл / 1 л",
           "price": "50 / 200",
           "type": "drinks",
           "menuSource": "Фото 1 · друковане меню",
-          "portionNote": "Об’єми двох порцій не підписані на фото меню."
+          "portionSource": "Підтверджено власником 10.10.2026"
         },
         {
           "id": "infusions-schweppes-tonic",

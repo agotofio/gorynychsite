@@ -857,23 +857,13 @@
       "id": "infusions-sik-v-asortymenti",
       "name": "Сік в асортименті",
       "new": false,
-      "changes": {
-        "weight": {
-          "before": "250 мл / 1 л",
-          "after": ""
-        }
-      }
+      "changes": {}
     },
     {
       "id": "infusions-uzvar",
       "name": "Узвар",
       "new": false,
-      "changes": {
-        "weight": {
-          "before": "250 мл / 1 л",
-          "after": ""
-        }
-      }
+      "changes": {}
     },
     {
       "id": "cocktails-aperol-pink",
@@ -1563,5 +1553,13 @@
       "removedFrom": "grill-file-dorado-z-ovochamy",
       "movedTo": "unknown-legacy-whole-fish"
     }
-  ]
+  ],
+  "portionConfirmation": {
+    "source": "user confirmation 2026-10-10",
+    "items": [
+      "infusions-sik-v-asortymenti",
+      "infusions-uzvar"
+    ],
+    "portions": "250 мл / 1 л"
+  }
 }
