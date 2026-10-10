@@ -1,0 +1,1550 @@
+{
+  "source": "9 user-supplied menu photos",
+  "verifiedOn": "2026-10-10",
+  "changes": [
+    {
+      "id": "cold-tartar-z-lososia",
+      "name": "Тартар з лосося",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "390",
+          "after": "290"
+        }
+      }
+    },
+    {
+      "id": "cold-asorti-vialenoho-miasa",
+      "name": "Асорті в’яленого м’яса",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Асорті в'яленого м'яса",
+          "after": "Асорті в’яленого м’яса"
+        },
+        "price": {
+          "before": "260",
+          "after": "285"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Хамон, коппа, курка."
+        }
+      }
+    },
+    {
+      "id": "cold-asorti-snekiv",
+      "name": "Асорті снеків до пива",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Асорті снеків до пива"
+        },
+        "price": {
+          "before": null,
+          "after": "260"
+        },
+        "weight": {
+          "before": null,
+          "after": "150 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Кабаноси, курка мед-гірчиця, курка пірі-пірі."
+        }
+      }
+    },
+    {
+      "id": "cold-asorti-blahorodnykh-syriv",
+      "name": "Асорті благородних сирів з горіхами та медом",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Асорті благородних сирів",
+          "after": "Асорті благородних сирів з горіхами та медом"
+        },
+        "price": {
+          "before": "260",
+          "after": "275"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Дор блю, камамбер, грана падано, горіхи та мед."
+        }
+      }
+    },
+    {
+      "id": "cold-file-slabosolenoho-lososia",
+      "name": "Філе слабосоленого лосося з тостами та вершковим маслом",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Філе слабосоленого лосося",
+          "after": "Філе слабосоленого лосося з тостами та вершковим маслом"
+        }
+      }
+    },
+    {
+      "id": "cold-oseledets-iz-kartopleiu",
+      "name": "Оселедець зі смаженою картоплею та маринованою цибулею",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Оселедець із картоплею",
+          "after": "Оселедець зі смаженою картоплею та маринованою цибулею"
+        },
+        "price": {
+          "before": "170",
+          "after": "190"
+        }
+      }
+    },
+    {
+      "id": "cold-zakuska-skarb-natsii",
+      "name": "Закуска «Скарб нації»",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "370",
+          "after": "410"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Маринована підчеревина, домашня ковбаса, квашена капуста, мариновані огірки та помідори, хрін та грінки."
+        }
+      }
+    },
+    {
+      "id": "cold-ovocheva-doshka",
+      "name": "Овочева дошка",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Огірок, томат, редис, перець, зелень."
+        }
+      }
+    },
+    {
+      "id": "salads-teplyi-salat-z-moreproduktamy",
+      "name": "Теплий салат з морепродуктами",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "290",
+          "after": "320"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Мікс салату, лосось, восьминіг, мідії, чері, авокадо, винно-соєвий соус."
+        }
+      }
+    },
+    {
+      "id": "salads-tsezar-z-lososem",
+      "name": "Цезар з лососем",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Цезар з лососем"
+        },
+        "price": {
+          "before": null,
+          "after": "290"
+        },
+        "weight": {
+          "before": null,
+          "after": "250 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Мікс салату, лосось слабосолений, перепелині яйця, чері, пармезан."
+        }
+      }
+    },
+    {
+      "id": "salads-tsezar-z-krevetkoiu",
+      "name": "Цезар з креветкою",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Мікс салату, королівські креветки, перепелині яйця, чері, пармезан."
+        }
+      }
+    },
+    {
+      "id": "salads-tsezar-z-kurkoiu-ta-bekonom",
+      "name": "Цезар з куркою та беконом",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "270",
+          "after": "285"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Бекон, куряче філе, перепелині яйця, чері, пармезан."
+        }
+      }
+    },
+    {
+      "id": "salads-teplyi-salat-z-teliatynoiu",
+      "name": "Теплий салат з телятиною в азіатському стилі",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Теплий салат з телятиною",
+          "after": "Теплий салат з телятиною в азіатському стилі"
+        },
+        "price": {
+          "before": "270",
+          "after": "280"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Мікс салату, телятина, огірок, чері, соус теріякі, кунжут."
+        }
+      }
+    },
+    {
+      "id": "salads-miks-salat-z-lososem-ta-parmezanom",
+      "name": "Мікс-салат з лососем та пармезаном",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Мікс салату, слабосолений лосось, пармезан, чері."
+        }
+      }
+    },
+    {
+      "id": "salads-kobb-salat",
+      "name": "Кобб салат",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Мікс салату, куряче філе, бекон, чері, яйця перепелині, дор блю, авокадо."
+        }
+      }
+    },
+    {
+      "id": "salads-hretskyi",
+      "name": "Грецький",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Мікс салату, огірок, перець, томат, фета, цибуля."
+        }
+      }
+    },
+    {
+      "id": "salads-proshutto-hrusha",
+      "name": "Салат з прошутто і грушею",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Салат з прошутто і грушею"
+        },
+        "price": {
+          "before": null,
+          "after": "270"
+        },
+        "weight": {
+          "before": null,
+          "after": "230 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Мікс салату, прошутто, груша, сир дор блю, чері."
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-korolivski-krevetky-na-hryli",
+      "name": "Королівські креветки на грилі з устричним соусом",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Королівські креветки на грилі",
+          "after": "Королівські креветки на грилі з устричним соусом"
+        },
+        "price": {
+          "before": "290",
+          "after": "310"
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-moiva-smazhena",
+      "name": "Мойва смажена",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "210",
+          "after": "230"
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-midii-v-mushliakh-u-vershkovomu-sousi",
+      "name": "Мідії в соусі дор блю",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Мідії в мушлях у вершковому соусі",
+          "after": "Мідії в соусі дор блю"
+        },
+        "price": {
+          "before": "260",
+          "after": "210"
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-kryla-koka-kola",
+      "name": "Крила в соусі з кока-коли",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Крила в соусі з кока-коли"
+        },
+        "price": {
+          "before": null,
+          "after": "210"
+        },
+        "weight": {
+          "before": null,
+          "after": "250 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-kuriachi-kryltsia-v-soievo-medovii-hlazuri",
+      "name": "Курячі крильця в соєво-медовій глазурі з гірчичним соусом",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Курячі крильця в соєво-медовій глазурі",
+          "after": "Курячі крильця в соєво-медовій глазурі з гірчичним соусом"
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-syrni-palychky",
+      "name": "Сирні палички смажені в сухарях з часниковим соусом",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Сирні палички",
+          "after": "Сирні палички смажені в сухарях з часниковим соусом"
+        },
+        "price": {
+          "before": "150",
+          "after": "175"
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-shampiniony-fri",
+      "name": "Шампіньйони фрі",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "150",
+          "after": "170"
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-vukha-svyniachi",
+      "name": "Вуха свинячі в соєво-часниковому соусі",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Вуха свинячі",
+          "after": "Вуха свинячі в соєво-часниковому соусі"
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-pyvna-doshka",
+      "name": "Пивна дошка",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "490",
+          "after": "560"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Сирні палички, печериці фрі, цибулеві кільця, вуха свинячі, сир сулугуні, грінки часникові, соус тар-тар, соус часниковий."
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-syrnyi-chan-drakona",
+      "name": "Сирний чан Дракона",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "490",
+          "after": "560"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Картопля діпи, цибулеві кільця, грінки часникові, курячі стріпси, соус сирний."
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-lavash-liulia-svynyna",
+      "name": "Лаваш люля-кебаб зі свинини",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Лаваш люля-кебаб зі свинини"
+        },
+        "price": {
+          "before": null,
+          "after": "180"
+        },
+        "weight": {
+          "before": null,
+          "after": "340 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-lavash-liulia-teliatyna",
+      "name": "Лаваш люля-кебаб із телятини",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Лаваш люля-кебаб із телятини"
+        },
+        "price": {
+          "before": null,
+          "after": "190"
+        },
+        "weight": {
+          "before": null,
+          "after": "340 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "hot-snacks-lavash-rvana-svynyna",
+      "name": "Лаваш зі рваною свининою",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Лаваш зі рваною свининою"
+        },
+        "price": {
+          "before": null,
+          "after": "220"
+        },
+        "weight": {
+          "before": null,
+          "after": "340 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "boards-doshka-velyka",
+      "name": "Дошка Велика",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "1810",
+          "after": "1960"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Шашлик свинина, люля-кебаб свинина, реберця, картопля з підчеревиною, лаваш з сиром сулугуні, соуси."
+        }
+      }
+    },
+    {
+      "id": "boards-doshka-mala",
+      "name": "Дошка Мала",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "950",
+          "after": "1050"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Крильця «Баффало», крильця в соєво-медовій глазурі, ковбаски курячі, ковбаски нюрнберзькі, часникові грінки, соуси."
+        }
+      }
+    },
+    {
+      "id": "boards-morski-skarby",
+      "name": "Морські скарби",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "650",
+          "after": "690"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Соломка лосося, стружка кальмара, кільця восьминога, креветки, мідії, грінки."
+        }
+      }
+    },
+    {
+      "id": "boards-doshka-krevetok",
+      "name": "Дошка Креветок",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Дошка креветок",
+          "after": "Дошка Креветок"
+        },
+        "price": {
+          "before": "1600",
+          "after": "1700"
+        }
+      }
+    },
+    {
+      "id": "boards-asorti-shashlykiv",
+      "name": "Асорті шашликів",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Асорті шашликів"
+        },
+        "price": {
+          "before": null,
+          "after": "1450"
+        },
+        "weight": {
+          "before": null,
+          "after": "900/600/100 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "boards-asorti-krylets",
+      "name": "Асорті крилець",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Асорті крилець"
+        },
+        "price": {
+          "before": null,
+          "after": "720"
+        },
+        "weight": {
+          "before": null,
+          "after": "750/150 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "soups-borshch",
+      "name": "Борщ",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "120",
+          "after": "135"
+        }
+      }
+    },
+    {
+      "id": "soups-sup-lapsha-z-frykadelkamy",
+      "name": "Суп-лапша з фрикадельками",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "90",
+          "after": "110"
+        }
+      }
+    },
+    {
+      "id": "soups-solianka",
+      "name": "Солянка",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "130",
+          "after": "140"
+        }
+      }
+    },
+    {
+      "id": "grill-shashlyk-iz-svynyny",
+      "name": "Шашлик із свинини",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "260",
+          "after": "275"
+        }
+      }
+    },
+    {
+      "id": "grill-shashlyk-iz-teliatyny",
+      "name": "Шашлик із телятини",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "270",
+          "after": "285"
+        }
+      }
+    },
+    {
+      "id": "grill-shashlyk-kuriachyi",
+      "name": "Шашлик курячий",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Шашлик курячий"
+        },
+        "price": {
+          "before": null,
+          "after": "250"
+        },
+        "weight": {
+          "before": null,
+          "after": "200 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "grill-liulia-kebab-iz-svynyny",
+      "name": "Люля-кебаб із свинини",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "210",
+          "after": "230"
+        }
+      }
+    },
+    {
+      "id": "grill-liulia-kebab-iz-teliatyny",
+      "name": "Люля-кебаб із телятини",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "220",
+          "after": "240"
+        }
+      }
+    },
+    {
+      "id": "grill-lavash-z-syrom-suluhuni",
+      "name": "Лаваш з сиром сулугуні",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Лаваш з сиром Сулугуні",
+          "after": "Лаваш з сиром сулугуні"
+        },
+        "price": {
+          "before": "100",
+          "after": "110"
+        }
+      }
+    },
+    {
+      "id": "grill-file-dorado-z-ovochamy",
+      "name": "Філе дорадо з овочами",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "310",
+          "after": "330"
+        }
+      }
+    },
+    {
+      "id": "grill-file-lososia-z-sousom-dor-bliu",
+      "name": "Філе лосося з соусом дор блю",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "420",
+          "after": "450"
+        }
+      }
+    },
+    {
+      "id": "grill-burher-svynyna-cheder",
+      "name": "Бургер зі свининою і чеддером",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Бургер зі свининою і чеддером"
+        },
+        "price": {
+          "before": null,
+          "after": "320"
+        },
+        "weight": {
+          "before": null,
+          "after": "300/100/50 г"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "sides-kartoplia-fri",
+      "name": "Картопля фрі",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "80",
+          "after": "105"
+        }
+      }
+    },
+    {
+      "id": "sides-kartoplia-po-seliansky",
+      "name": "Картопля по-селянськи",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "80",
+          "after": "105"
+        }
+      }
+    },
+    {
+      "id": "desserts-iabluchnyi-tart",
+      "name": "Яблучний тарт",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "110",
+          "after": "140"
+        }
+      }
+    },
+    {
+      "id": "desserts-krem-briule",
+      "name": "Крем-брюле",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "100",
+          "after": "120"
+        }
+      }
+    },
+    {
+      "id": "desserts-morozyvo-z-topinhom",
+      "name": "Морозиво з топінгом",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "60",
+          "after": "90"
+        }
+      }
+    },
+    {
+      "id": "desserts-napoleon",
+      "name": "Наполеон",
+      "new": false,
+      "changes": {
+        "price": {
+          "before": "100",
+          "after": "120"
+        }
+      }
+    },
+    {
+      "id": "wine-marengo",
+      "name": "Marengo напівсолодке біле",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Marengo",
+          "after": "Marengo напівсолодке біле"
+        }
+      }
+    },
+    {
+      "id": "wine-marengo-brut",
+      "name": "Marengo брют біле",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Marengo брют біле"
+        },
+        "price": {
+          "before": null,
+          "after": "350"
+        },
+        "weight": {
+          "before": null,
+          "after": "пляшка"
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "infusions-burn",
+      "name": "Burn",
+      "new": false,
+      "changes": {
+        "weight": {
+          "before": "250 мл",
+          "after": ""
+        }
+      }
+    },
+    {
+      "id": "infusions-sik-v-asortymenti",
+      "name": "Сік в асортименті",
+      "new": false,
+      "changes": {
+        "weight": {
+          "before": "250 мл / 1 л",
+          "after": ""
+        }
+      }
+    },
+    {
+      "id": "infusions-uzvar",
+      "name": "Узвар",
+      "new": false,
+      "changes": {
+        "weight": {
+          "before": "250 мл / 1 л",
+          "after": ""
+        }
+      }
+    },
+    {
+      "id": "cocktails-aperol-pink",
+      "name": "Aperol Pink",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Гамонді Пінк, просекко, содова."
+        }
+      }
+    },
+    {
+      "id": "cocktails-aperol-spritz",
+      "name": "Aperol Spritz",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Апероль, просекко, содова."
+        }
+      }
+    },
+    {
+      "id": "cocktails-pina-colada",
+      "name": "Pina Colada",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, кокосовий лікер, сік ананасовий, свіжий ананас."
+        }
+      }
+    },
+    {
+      "id": "cocktails-bloody-mary",
+      "name": "Bloody Mary",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Горілка Żubrówka Biała, сік томатний, ворчестерський соус, табаско, сіль, перець."
+        }
+      }
+    },
+    {
+      "id": "cocktails-clover-club",
+      "name": "Clover Club",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Джин Gordon’s London Dry, малиновий топінг, фреш лайма, білок."
+        }
+      }
+    },
+    {
+      "id": "cocktails-french-75",
+      "name": "French 75",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Джин Gordon’s London Dry, просекко, цукровий сироп, лимонний фреш."
+        }
+      }
+    },
+    {
+      "id": "cocktails-mai-tai",
+      "name": "Mai Tai",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, Dark, трипл сек, орже, фреш лайма."
+        }
+      }
+    },
+    {
+      "id": "cocktails-negroni",
+      "name": "Negroni",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Червоний вермут, кампарі, джин Gordon’s London Dry."
+        }
+      }
+    },
+    {
+      "id": "cocktails-whiskey-sour",
+      "name": "Whiskey Sour",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Бурбон, лимонний фреш, цукровий сироп, білок."
+        }
+      }
+    },
+    {
+      "id": "cocktails-planters-punch",
+      "name": "Planter's Punch",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, Dark, трипл сек, гренадин, цукровий сироп, сік апельсину, сік ананасу, лимонний фреш, ангостура."
+        }
+      }
+    },
+    {
+      "id": "cocktails-mojito",
+      "name": "Mojito",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan Gold, м’ята, спрайт, содова, тростинний цукор."
+        }
+      }
+    },
+    {
+      "id": "cocktails-long-island",
+      "name": "Long Island",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Горілка Козацька Рада, ром Captain Morgan White, джин Gordon’s London Dry, текіла Jarana Blanco, трипл сек, лимонний фреш, цукровий сироп, кола."
+        }
+      }
+    },
+    {
+      "id": "cocktails-skullduggery",
+      "name": "Skullduggery",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, Dark, сік ананасовий, пюре маракуя, кокосовий крем."
+        }
+      }
+    },
+    {
+      "id": "cocktails-zombie",
+      "name": "Zombie",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, Dark, Gold, золотий ром, фреш лайму, пюре маракуя, цукровий сироп."
+        }
+      }
+    },
+    {
+      "id": "cocktails-the-last-dragon",
+      "name": "The Last Dragon",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, лимонний фреш, пітахая, блю кюрасао."
+        }
+      }
+    },
+    {
+      "id": "cocktails-candy-cane",
+      "name": "Candy Cane",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Джин Gordon’s London Dry, лимонний фреш, сироп імбир, пітахая, содова."
+        }
+      }
+    },
+    {
+      "id": "cocktails-chief-lapu-lapu",
+      "name": "Chief Lapu Lapu",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, Dark, сік апельсину, фреш лайму, цукровий сироп, пюре маракуя."
+        }
+      }
+    },
+    {
+      "id": "cocktails-espresso-martini",
+      "name": "Espresso Martini",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Горілка Koskenkorva, еспресо, цукровий сироп, кавовий лікер."
+        }
+      }
+    },
+    {
+      "id": "cocktails-apple-sour",
+      "name": "Apple Sour",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan, сік яблучний, пюре груші, фреш лимону, фоамін."
+        }
+      }
+    },
+    {
+      "id": "cocktails-devils-margarita",
+      "name": "Devil's Margarita",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Текіла Jarana Blanco, фреш лимону, пюре манго-ананас, вино червоне."
+        }
+      }
+    },
+    {
+      "id": "cocktails-jungle-cat",
+      "name": "Jungle Cat",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Джин Gordon’s London Dry, кампарі, сік ананасовий, фреш лимону, пюре ананасу."
+        }
+      }
+    },
+    {
+      "id": "cocktails-east-hold",
+      "name": "East & Hold",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, апероль, сік ананасовий, фреш лимону, пюре манго-ананас."
+        }
+      }
+    },
+    {
+      "id": "cocktails-gorynych",
+      "name": "Gorynych",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Текіла Jarana Blanco, ром Captain Morgan Dark, трипл сек, сік ананасовий, фреш лимону, мигдальний сироп, сироп вишні."
+        }
+      }
+    },
+    {
+      "id": "cocktails-dragon-colada",
+      "name": "Dragon Colada",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Піско, пітахая, сироп імбирний та кокосовий, сік, вершки."
+        }
+      }
+    },
+    {
+      "id": "cocktails-dragon-lady",
+      "name": "Dragon Lady",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Джин Gordon’s London Dry, пітахая, трипл сек, лимонний фреш, білок."
+        }
+      }
+    },
+    {
+      "id": "cocktails-dragon-garden",
+      "name": "Dragon Garden",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Горілка Козацька Рада, лимонний фреш, пітахая, сироп бузини, швепс."
+        }
+      }
+    },
+    {
+      "id": "cocktails-festive-dragon",
+      "name": "Festive Dragon",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, лимонний фреш, трипл сек, пітахая."
+        }
+      }
+    },
+    {
+      "id": "cocktails-frost-dragon",
+      "name": "Frost Dragon",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Текіла Jarana Blanco, лимонний фреш, сироп бузини, блю кюрасао."
+        }
+      }
+    },
+    {
+      "id": "cocktails-pinkest-daiquiri",
+      "name": "Pinkest Daiquiri",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Ром Captain Morgan White, лимонний фреш, пітахая."
+        }
+      }
+    },
+    {
+      "id": "special-cocktails-ayk-dragon",
+      "name": "Milk Dragon",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Ayk Dragon",
+          "after": "Milk Dragon"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Джин Gordon’s Pink, згущене молоко, сироп полуниці, сік лимона, содова."
+        }
+      }
+    },
+    {
+      "id": "special-cocktails-moon-star",
+      "name": "Porn Star",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Moon Star",
+          "after": "Porn Star"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Коскенкорва Ваніла, лікер маракуя, ванільний цукор, просекко."
+        }
+      }
+    },
+    {
+      "id": "special-cocktails-baby-blue",
+      "name": "Baby Blue",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": "Ванільна горілка, сік лимона, лікер блю кюрасао, лікер персик, білок.",
+          "after": "Коскенкорва Ваніла, сік лимона, лікер блю кюрасао, лікер персик, білок."
+        }
+      }
+    },
+    {
+      "id": "special-cocktails-mozi-moon",
+      "name": "Blood Moon",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Mozi Moon",
+          "after": "Blood Moon"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Gordon’s Pink, сік лимона, лікер кокос, гренадин, білок."
+        }
+      }
+    },
+    {
+      "id": "special-cocktails-pink-barbie",
+      "name": "Drunk Barbie",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Pink Barbie",
+          "after": "Drunk Barbie"
+        },
+        "ingredients": {
+          "before": null,
+          "after": "Коскенкорва Ваніла, пюре пітахая, лікер персик, сік лимона, просекко."
+        }
+      }
+    },
+    {
+      "id": "special-cocktails-very-peri",
+      "name": "Very Peri",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": "Gordon’s, лікер банан, лікер персик, сироп бузина, сік лимона, білок.",
+          "after": "Джин Gordon’s London Dry, лікер банан, лікер персик, сироп бузина, сік лимона, білок."
+        }
+      }
+    },
+    {
+      "id": "special-cocktails-strawberry-kiss",
+      "name": "Strawberry Kiss",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Коскенкорва Ваніла, полуничний лікер, сік лимона, сік ананас."
+        }
+      }
+    },
+    {
+      "id": "special-cocktails-chili-sour",
+      "name": "Chill Sour",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Chili Sour",
+          "after": "Chill Sour"
+        },
+        "ingredients": {
+          "before": "Бурбон, піско, сироп імбиру, лимонний сік, соус шрірача, білок.",
+          "after": "Бурбон, піско, сироп імбир, сік лимона, соус шрірача, білок."
+        }
+      }
+    },
+    {
+      "id": "coffee-tea-dopio",
+      "name": "Допіо",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Допіо"
+        },
+        "price": {
+          "before": null,
+          "after": "65"
+        },
+        "weight": {
+          "before": null,
+          "after": ""
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "coffee-tea-chai-zavarnyi",
+      "name": "Чай чорний",
+      "new": false,
+      "changes": {
+        "name": {
+          "before": "Чай заварний",
+          "after": "Чай чорний"
+        }
+      }
+    },
+    {
+      "id": "coffee-tea-chai-zelenyi",
+      "name": "Чай зелений",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Чай зелений"
+        },
+        "price": {
+          "before": null,
+          "after": "50"
+        },
+        "weight": {
+          "before": null,
+          "after": ""
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "coffee-tea-chai-travianyi",
+      "name": "Чай трав’яний",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Чай трав’яний"
+        },
+        "price": {
+          "before": null,
+          "after": "50"
+        },
+        "weight": {
+          "before": null,
+          "after": ""
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "coffee-tea-chai-fruktovyi",
+      "name": "Чай фруктовий",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Чай фруктовий"
+        },
+        "price": {
+          "before": null,
+          "after": "50"
+        },
+        "weight": {
+          "before": null,
+          "after": ""
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "coffee-extras-moloko",
+      "name": "Молоко",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Молоко"
+        },
+        "price": {
+          "before": null,
+          "after": "10"
+        },
+        "weight": {
+          "before": null,
+          "after": ""
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "coffee-extras-vershky",
+      "name": "Вершки",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Вершки"
+        },
+        "price": {
+          "before": null,
+          "after": "15"
+        },
+        "weight": {
+          "before": null,
+          "after": ""
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "coffee-extras-med",
+      "name": "Мед",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Мед"
+        },
+        "price": {
+          "before": null,
+          "after": "10"
+        },
+        "weight": {
+          "before": null,
+          "after": ""
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "coffee-extras-tsytrus",
+      "name": "Апельсин / Лимон / Лайм",
+      "new": true,
+      "changes": {
+        "name": {
+          "before": null,
+          "after": "Апельсин / Лимон / Лайм"
+        },
+        "price": {
+          "before": null,
+          "after": "7"
+        },
+        "weight": {
+          "before": null,
+          "after": ""
+        },
+        "ingredients": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "id": "beer-cocktails-dr-pepper",
+      "name": "Dr. Pepper",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Карлсберг, кола, амаретто."
+        }
+      }
+    },
+    {
+      "id": "beer-cocktails-naked-tits",
+      "name": "Naked Tits",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Сік яблучний, карлсберг, самбука, сироп гренадин."
+        }
+      }
+    },
+    {
+      "id": "beer-cocktails-jam-bitter-sweet",
+      "name": "Jam Bitter Sweet",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Віскі, кампарі, грейпфрутовий сік, кроненбург."
+        }
+      }
+    },
+    {
+      "id": "beer-cocktails-aperol-mist",
+      "name": "Aperol Mist",
+      "new": false,
+      "changes": {
+        "ingredients": {
+          "before": null,
+          "after": "Апероль, Ґрімберген нефільтрований, лимонний фреш."
+        }
+      }
+    }
+  ],
+  "pendingFormerMenuIds": [
+    "soups-okroshka",
+    "grill-piv-kurcha",
+    "coffee-tea-kakao"
+  ]
+}

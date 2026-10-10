@@ -1,4 +1,4 @@
-const CACHE_NAME = "gorynych-menu-2026-10-10-photos-3";
+const CACHE_NAME = "gorynych-menu-2026-10-10-printed-menu";
 const APP_SHELL = [
   "./",
   "./index.html",

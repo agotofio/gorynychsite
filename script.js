@@ -119,6 +119,7 @@ function itemMatchesSearch(category, item, term) {
     [
       category.name,
       item.name,
+      ...(item.aliases || []),
       item.description,
       item.ingredients,
       ...(item.photos || []).map((photo) => photo.source),
@@ -262,6 +263,7 @@ function renderItem(category, item) {
         </div>
         ${item.description ? `<p class="item-desc">${escapeHtml(item.description)}</p>` : ""}
         ${item.weight ? `<div class="item-meta"><span>${escapeHtml(item.weight)}</span></div>` : ""}
+        ${item.portionNote ? `<p class="item-desc">Об’єм порцій уточнюється.</p>` : ""}
       </div>
     </article>
   `;
@@ -555,7 +557,8 @@ function openModal(id) {
           : `<p class="modal-ingredients">Склад уточнюйте у персоналу.</p>`
       }
       ${item.weight ? `<p class="modal-weight">${escapeHtml(item.weight)}</p>` : ""}
-      ${item.ingredientsSource ? `<p class="photo-source">Склад із підпису на фото ${escapeHtml(item.ingredientsSource)}.</p>` : ""}
+      ${item.portionNote ? `<p class="modal-weight">Об’єм порцій уточнюється.</p>` : ""}
+      ${item.ingredientsSource ? `<p class="photo-source">Джерело складу: ${escapeHtml(item.ingredientsSource)}.</p>` : ""}
       ${photos.length ? `<p class="photo-source" id="photoSource">${escapeHtml(photos[0].source || "")}</p>` : ""}
       ${photos.length > 1 ? `<div class="photo-gallery" aria-label="Фотографії позиції">${photos.map((entry,index)=>`<button type="button" class="gallery-thumb ${index===0?'selected':''}" data-photo-index="${index}" aria-pressed="${index===0}" aria-label="Фото ${index+1}: ${escapeHtml(entry.source || item.name)}"><img src="assets/dishes/thumbs/${entry.image}.webp" alt="" loading="lazy"></button>`).join('')}</div>` : ""}
     </div>
