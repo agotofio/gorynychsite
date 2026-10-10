@@ -101,7 +101,7 @@ function normalize(value = "") {
     .toLocaleLowerCase("uk-UA")
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[«»"'`]/g, "")
+    .replace(/[«»"'`’‘ʼ]/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -195,7 +195,7 @@ function renderNav(categories) {
       (category) => `
         <button type="button" class="${category.id === activeId ? "active" : ""}"
           data-target="${escapeHtml(category.id)}"
-          aria-label="${escapeHtml(`${category.name}, ${category.items.length} позицій`)}"
+          aria-label="${escapeHtml(`${category.name}, ${category.items.length} ${pluralizeResults(category.items.length)}`)}"
           aria-current="${category.id === activeId ? "true" : "false"}">
           <span>${escapeHtml(category.name)}</span>
           <span class="nav-count" aria-hidden="true">${category.items.length}</span>
@@ -281,6 +281,12 @@ function priceMarkup(item) {
   const rawPrice = String(item.price ?? "уточнюйте").trim();
   const priceParts = rawPrice.split(/\s*\/\s*/).filter(Boolean);
   const unitParts = String(item.weight ?? "").split(/\s*\/\s*/).filter(Boolean);
+  const sharedUnit = unitParts.at(-1)?.match(/\s(мл|л|кг|г)$/)?.[1];
+  if (sharedUnit) {
+    unitParts.forEach((part, index) => {
+      if (/^\d+(?:[.,]\d+)?$/.test(part)) unitParts[index] = `${part} ${sharedUnit}`;
+    });
+  }
 
   if (priceParts.length > 1 && priceParts.length === unitParts.length) {
     const ariaLabel = priceParts
@@ -310,9 +316,9 @@ function renderStats(categories) {
     0
   );
   els.stats.innerHTML = `
-    <span>${itemCount} позицій</span>
+    <span>${itemCount} ${pluralizeResults(itemCount)}</span>
     <span>${photoCount} з фото</span>
-    <span>${categories.length} розділів</span>
+    <span>${categories.length} ${pluralizeWords(categories.length, "розділ", "розділи", "розділів")}</span>
   `;
 }
 
@@ -330,11 +336,15 @@ function renderSearchStatus(term, resultCount) {
 }
 
 function pluralizeResults(n) {
+  return pluralizeWords(n, "позиція", "позиції", "позицій");
+}
+
+function pluralizeWords(n, one, few, many) {
   const mod10 = n % 10;
   const mod100 = n % 100;
-  if (mod10 === 1 && mod100 !== 11) return "позиція";
-  if ([2, 3, 4].includes(mod10) && ![12, 13, 14].includes(mod100)) return "позиції";
-  return "позицій";
+  if (mod10 === 1 && mod100 !== 11) return one;
+  if ([2, 3, 4].includes(mod10) && ![12, 13, 14].includes(mod100)) return few;
+  return many;
 }
 
 function updateFilterAvailability() {
@@ -425,6 +435,11 @@ function prefersReducedMotion() {
 
 function scrollToMenuSection(target, behavior = "auto") {
   if (!target) return;
+  // Reveal transforms must not change the destination while scrolling.
+  target.style.transition = "none";
+  target.classList.add("is-visible");
+  target.style.transform = "none";
+  updateHeaderHeight();
   // Wrapped filters change the sticky header height on desktop.
   const stickyBottom = Math.max(0, ...[...document.querySelectorAll('.topbar, .controls, .section-nav')].map(element => {
     const style = getComputedStyle(element);
@@ -863,5 +878,24 @@ els.backToTop.addEventListener("click", () => {
 });
 window.addEventListener("scroll", updateBackToTop, { passive: true });
 updateBackToTop();
+
+function updateHeaderHeight() {
+  const header = document.querySelector(".topbar");
+  if (!header) return;
+  const headerHeight = Math.ceil(header.getBoundingClientRect().height);
+  const controls = document.querySelector(".controls");
+  const controlsHeight = controls && getComputedStyle(controls).position === "sticky"
+    ? Math.ceil(controls.getBoundingClientRect().height) : 0;
+  document.documentElement.style.setProperty("--topbar-height", `${headerHeight}px`);
+  document.documentElement.style.setProperty("--menu-sticky-offset", `${headerHeight + controlsHeight + 14}px`);
+}
+updateHeaderHeight();
+if ("ResizeObserver" in window) {
+  const layoutObserver = new ResizeObserver(updateHeaderHeight);
+  layoutObserver.observe(document.querySelector(".topbar"));
+  layoutObserver.observe(document.querySelector(".controls"));
+} else {
+  window.addEventListener("resize", updateHeaderHeight);
+}
 
 init();

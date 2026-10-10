@@ -393,7 +393,7 @@ h1 {
 
 .controls {
   position: sticky;
-  top: 76px;
+  top: var(--topbar-height, 76px);
   z-index: 15;
   display: grid;
   grid-template-columns: minmax(260px, 460px) 1fr;
@@ -571,11 +571,11 @@ h1 {
 
 .section-nav {
   position: sticky;
-  top: 160px;
+  top: var(--menu-sticky-offset, 160px);
   align-self: start;
   min-width: 0;
   width: 100%;
-  max-height: calc(100vh - 178px);
+  max-height: calc(100vh - var(--menu-sticky-offset, 160px) - 18px);
   overflow: auto;
   padding: 12px;
   border: 1px solid var(--line);
@@ -1295,6 +1295,22 @@ body.modal-open {
     white-space: nowrap;
   }
 
+  .brand img {
+    flex-shrink: 0;
+  }
+
+  .toplinks a[href^="tel:"] {
+    font-size: 0;
+    min-width: 38px;
+    padding: 7px 9px;
+  }
+
+  .toplinks a[href^="tel:"]::after {
+    content: "☎";
+    font-size: 18px;
+    line-height: 1;
+  }
+
   /* -- Hero -- */
   .intro,
   .controls,
@@ -1394,7 +1410,7 @@ body.modal-open {
 
   .section-nav {
     position: sticky;
-    top: calc(58px + env(safe-area-inset-top));
+    top: var(--topbar-height, calc(58px + env(safe-area-inset-top)));
     z-index: 14;
     max-height: none;
     overflow: visible;
