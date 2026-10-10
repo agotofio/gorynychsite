@@ -1,4 +1,4 @@
-const CACHE_NAME = "gorynych-menu-2026-10-10-photos-2";
+const CACHE_NAME = "gorynych-menu-2026-10-10-photos-3";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -31,9 +31,9 @@ self.addEventListener("fetch", (event) => {
   const requestUrl = new URL(event.request.url);
   if (requestUrl.origin !== self.location.origin) return;
 
-  // Menu data should become fresh when there is a connection, while still
+  // Menu and interface files should become fresh when there is a connection, while still
   // remaining available from the last successful visit when offline.
-  if (requestUrl.pathname.endsWith("/data/menu.json")) {
+  if (requestUrl.pathname.endsWith("/data/menu.json") || event.request.mode === "navigate" || /\/(?:script\.js|styles\.css)$/.test(requestUrl.pathname)) {
     event.respondWith(
       fetch(event.request)
         .then((response) => {
