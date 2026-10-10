@@ -220,12 +220,16 @@ function setActiveNavButton(targetId) {
     el.classList.toggle("active", isActive);
     el.setAttribute("aria-current", isActive ? "true" : "false");
   });
-  [...els.sectionNav.querySelectorAll("button")]
-    .find((button) => button.dataset.target === targetId)
-    ?.scrollIntoView({
-      block: "nearest",
-      inline: "nearest",
-    });
+  const navContainer = els.sectionNav.closest(".section-nav");
+  // Only reveal a nav button inside a scrolling sidebar or mobile chip bar.
+  // On tablets the category list is in normal page flow; scrolling it into
+  // view would undo the user's jump to the actual menu section.
+  if (window.matchMedia("(max-width: 760px)").matches ||
+      (navContainer && navContainer.scrollHeight > navContainer.clientHeight)) {
+    [...els.sectionNav.querySelectorAll("button")]
+      .find((button) => button.dataset.target === targetId)
+      ?.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }
 }
 
 function renderItem(category, item) {
