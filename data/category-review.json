@@ -1,0 +1,242 @@
+{
+  "reviewedOn": "2026-10-10",
+  "movedItems": [
+    {
+      "id": "grill-file-dorado-z-ovochamy",
+      "name": "Філе дорадо з овочами",
+      "from": "grill",
+      "to": "fish"
+    },
+    {
+      "id": "grill-file-lososia-z-sousom-dor-bliu",
+      "name": "Філе лосося з соусом дор блю",
+      "from": "grill",
+      "to": "fish"
+    },
+    {
+      "id": "grill-burher-horynych",
+      "name": "Бургер «Горинич»",
+      "from": "grill",
+      "to": "burgers"
+    },
+    {
+      "id": "grill-burher-z-rvanoiu-svynynoiu",
+      "name": "Бургер з рваною свининою",
+      "from": "grill",
+      "to": "burgers"
+    },
+    {
+      "id": "grill-burher-syrnyi",
+      "name": "Бургер сирний",
+      "from": "grill",
+      "to": "burgers"
+    },
+    {
+      "id": "grill-burher-z-syrom-v-panirovtsi",
+      "name": "Бургер з сиром в паніровці",
+      "from": "grill",
+      "to": "burgers"
+    },
+    {
+      "id": "grill-burher-kuriachyi",
+      "name": "Бургер курячий",
+      "from": "grill",
+      "to": "burgers"
+    },
+    {
+      "id": "grill-burher-svynyna-cheder",
+      "name": "Бургер зі свининою і чеддером",
+      "from": "grill",
+      "to": "burgers"
+    },
+    {
+      "id": "wine-prosecco-spumante",
+      "name": "Prosecco Spumante",
+      "from": "wine",
+      "to": "sparkling-wine"
+    },
+    {
+      "id": "wine-san-mare-fragolino",
+      "name": "San Mare Fragolino",
+      "from": "wine",
+      "to": "sparkling-wine"
+    },
+    {
+      "id": "wine-marengo",
+      "name": "Marengo напівсолодке біле",
+      "from": "wine",
+      "to": "sparkling-wine"
+    },
+    {
+      "id": "wine-marengo-brut",
+      "name": "Marengo брют біле",
+      "from": "wine",
+      "to": "sparkling-wine"
+    },
+    {
+      "id": "whiskey-cointreau",
+      "name": "Cointreau",
+      "from": "whiskey",
+      "to": "liqueurs"
+    },
+    {
+      "id": "whiskey-baileys-the-original",
+      "name": "Baileys The Original",
+      "from": "whiskey",
+      "to": "liqueurs"
+    },
+    {
+      "id": "whiskey-becherovka",
+      "name": "Becherovka",
+      "from": "whiskey",
+      "to": "liqueurs"
+    },
+    {
+      "id": "whiskey-sambuca-antica-classic",
+      "name": "Sambuca Antica Classic",
+      "from": "whiskey",
+      "to": "liqueurs"
+    },
+    {
+      "id": "whiskey-xenta-absenta",
+      "name": "Xenta Absenta",
+      "from": "whiskey",
+      "to": "liqueurs"
+    },
+    {
+      "id": "spirits-j-germeister",
+      "name": "Jägermeister",
+      "from": "spirits",
+      "to": "liqueurs"
+    },
+    {
+      "id": "infusions-kola-sprait",
+      "name": "Кола / Спрайт",
+      "from": "infusions",
+      "to": "soft-drinks"
+    },
+    {
+      "id": "infusions-fanta-bonakva",
+      "name": "Фанта / Бонаква",
+      "from": "infusions",
+      "to": "soft-drinks"
+    },
+    {
+      "id": "infusions-burn",
+      "name": "Burn",
+      "from": "infusions",
+      "to": "soft-drinks"
+    },
+    {
+      "id": "infusions-sik-v-asortymenti",
+      "name": "Сік в асортименті",
+      "from": "infusions",
+      "to": "soft-drinks"
+    },
+    {
+      "id": "infusions-uzvar",
+      "name": "Узвар",
+      "from": "infusions",
+      "to": "soft-drinks"
+    },
+    {
+      "id": "infusions-schweppes-tonic",
+      "name": "Schweppes Tonic",
+      "from": "infusions",
+      "to": "soft-drinks"
+    },
+    {
+      "id": "infusions-lymonad-v-asortymenti",
+      "name": "Лимонад в асортименті",
+      "from": "infusions",
+      "to": "soft-drinks"
+    },
+    {
+      "id": "coffee-tea-chai-domashnii-imbyr-laim-med",
+      "name": "Чай домашній Імбир-Лайм-Мед",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chai-domashnii-malyna-oblipykha",
+      "name": "Чай домашній Малина-Обліпиха",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chai-domashnii-oblipykha",
+      "name": "Чай домашній Обліпиха",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chai-domashnii-polunytsia-malyna-chebrets",
+      "name": "Чай домашній Полуниця-Малина-Чебрець",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chai-domashnii-manho-marakuia",
+      "name": "Чай домашній Манго-Маракуя",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chai-zavarnyi",
+      "name": "Чай чорний",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chai-zelenyi",
+      "name": "Чай зелений",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chai-travianyi",
+      "name": "Чай трав’яний",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chai-fruktovyi",
+      "name": "Чай фруктовий",
+      "from": "coffee-tea",
+      "to": "tea"
+    },
+    {
+      "id": "coffee-tea-chervonyi-hlintvein",
+      "name": "Червоний глінтвейн",
+      "from": "coffee-tea",
+      "to": "hot-cocktails"
+    },
+    {
+      "id": "coffee-tea-bilyi-hlintvein",
+      "name": "Білий глінтвейн",
+      "from": "coffee-tea",
+      "to": "hot-cocktails"
+    },
+    {
+      "id": "coffee-tea-prazkyi-hlintvein",
+      "name": "Празький глінтвейн",
+      "from": "coffee-tea",
+      "to": "hot-cocktails"
+    },
+    {
+      "id": "coffee-tea-zoloto-drakona",
+      "name": "Золото Дракона",
+      "from": "coffee-tea",
+      "to": "hot-cocktails"
+    },
+    {
+      "id": "coffee-tea-medova-tsukerka",
+      "name": "Медова цукерка",
+      "from": "coffee-tea",
+      "to": "hot-cocktails"
+    }
+  ],
+  "knownItems": 225,
+  "pendingItems": 35,
+  "rule": "Dedicated sections for burgers, fish main dishes, sparkling wine, liqueurs, soft drinks, tea and hot alcoholic cocktails. Preserve source item IDs, recipes, prices and photos."
+}

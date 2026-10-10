@@ -66,7 +66,10 @@
           "menuSource": "Фото 7 · друковане меню",
           "description": "Хамон, коппа, курка.",
           "ingredients": "Хамон, коппа, курка.",
-          "ingredientsSource": "Фото 7 · друковане меню"
+          "ingredientsSource": "Фото 7 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "cold-asorti-snekiv",
@@ -80,7 +83,10 @@
           "ingredientsSource": "Фото 7 · друковане меню",
           "image": "img_3908",
           "imgW": 960,
-          "imgH": 720
+          "imgH": 720,
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "cold-asorti-blahorodnykh-syriv",
@@ -105,7 +111,10 @@
           "menuSource": "Фото 7 · друковане меню",
           "description": "Дор блю, камамбер, грана падано, горіхи та мед.",
           "ingredients": "Дор блю, камамбер, грана падано, горіхи та мед.",
-          "ingredientsSource": "Фото 7 · друковане меню"
+          "ingredientsSource": "Фото 7 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "cold-file-slabosolenoho-lososia",
@@ -141,7 +150,10 @@
           "aliases": [
             "Оселедець із картоплею"
           ],
-          "menuSource": "Фото 7 · друковане меню"
+          "menuSource": "Фото 7 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "cold-zakuska-skarb-natsii",
@@ -152,7 +164,10 @@
           "menuSource": "Фото 7 · друковане меню",
           "description": "Маринована підчеревина, домашня ковбаса, квашена капуста, мариновані огірки та помідори, хрін та грінки.",
           "ingredients": "Маринована підчеревина, домашня ковбаса, квашена капуста, мариновані огірки та помідори, хрін та грінки.",
-          "ingredientsSource": "Фото 7 · друковане меню"
+          "ingredientsSource": "Фото 7 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "cold-ovocheva-doshka",
@@ -381,7 +396,10 @@
           "aliases": [
             "Королівські креветки на грилі"
           ],
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-moiva-smazhena",
@@ -406,7 +424,10 @@
               "height": 1440
             }
           ],
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-midii-v-mushliakh-u-vershkovomu-sousi",
@@ -420,7 +441,10 @@
           "aliases": [
             "Мідії в мушлях у вершковому соусі"
           ],
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-midii-v-soievo-chasnykovomu-sousi",
@@ -431,7 +455,10 @@
           "image": "img_0192",
           "imgW": 960,
           "imgH": 720,
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-kryla-koka-kola",
@@ -439,7 +466,10 @@
           "name": "Крила в соусі з кока-коли",
           "weight": "250 г",
           "price": "210",
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-kuriachi-kryltsia-baffalo",
@@ -450,7 +480,10 @@
           "image": "img_9245",
           "imgW": 960,
           "imgH": 720,
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-kuriachi-kryltsia-v-soievo-medovii-hlazuri",
@@ -461,7 +494,10 @@
           "aliases": [
             "Курячі крильця в соєво-медовій глазурі"
           ],
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-syrni-palychky",
@@ -483,7 +519,10 @@
           "aliases": [
             "Сирні палички"
           ],
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-shampiniony-fri",
@@ -502,7 +541,10 @@
               "height": 1440
             }
           ],
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-vukha-svyniachi",
@@ -524,6 +566,9 @@
               "width": 960,
               "height": 1280
             }
+          ],
+          "tags": [
+            "beer-snack"
           ]
         },
         {
@@ -538,7 +583,11 @@
           "menuSource": "Фото 8 · друковане меню",
           "description": "Сирні палички, печериці фрі, цибулеві кільця, вуха свинячі, сир сулугуні, грінки часникові, соус тар-тар, соус часниковий.",
           "ingredients": "Сирні палички, печериці фрі, цибулеві кільця, вуха свинячі, сир сулугуні, грінки часникові, соус тар-тар, соус часниковий.",
-          "ingredientsSource": "Фото 8 · друковане меню"
+          "ingredientsSource": "Фото 8 · друковане меню",
+          "tags": [
+            "for-company",
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-syrnyi-chan-drakona",
@@ -549,7 +598,11 @@
           "menuSource": "Фото 8 · друковане меню",
           "description": "Картопля діпи, цибулеві кільця, грінки часникові, курячі стріпси, соус сирний.",
           "ingredients": "Картопля діпи, цибулеві кільця, грінки часникові, курячі стріпси, соус сирний.",
-          "ingredientsSource": "Фото 8 · друковане меню"
+          "ingredientsSource": "Фото 8 · друковане меню",
+          "tags": [
+            "for-company",
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-lavash-liulia-svynyna",
@@ -557,7 +610,10 @@
           "name": "Лаваш люля-кебаб зі свинини",
           "weight": "340 г",
           "price": "180",
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-lavash-liulia-teliatyna",
@@ -565,7 +621,10 @@
           "name": "Лаваш люля-кебаб із телятини",
           "weight": "340 г",
           "price": "190",
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "hot-snacks-lavash-rvana-svynyna",
@@ -573,7 +632,10 @@
           "name": "Лаваш зі рваною свининою",
           "weight": "340 г",
           "price": "220",
-          "menuSource": "Фото 8 · друковане меню"
+          "menuSource": "Фото 8 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         }
       ]
     },
@@ -604,7 +666,10 @@
           "menuSource": "Фото 7 · друковане меню",
           "description": "Шашлик свинина, люля-кебаб свинина, реберця, картопля з підчеревиною, лаваш з сиром сулугуні, соуси.",
           "ingredients": "Шашлик свинина, люля-кебаб свинина, реберця, картопля з підчеревиною, лаваш з сиром сулугуні, соуси.",
-          "ingredientsSource": "Фото 7 · друковане меню"
+          "ingredientsSource": "Фото 7 · друковане меню",
+          "tags": [
+            "for-company"
+          ]
         },
         {
           "id": "boards-doshka-mala",
@@ -618,7 +683,10 @@
           "menuSource": "Фото 7 · друковане меню",
           "description": "Крильця «Баффало», крильця в соєво-медовій глазурі, ковбаски курячі, ковбаски нюрнберзькі, часникові грінки, соуси.",
           "ingredients": "Крильця «Баффало», крильця в соєво-медовій глазурі, ковбаски курячі, ковбаски нюрнберзькі, часникові грінки, соуси.",
-          "ingredientsSource": "Фото 7 · друковане меню"
+          "ingredientsSource": "Фото 7 · друковане меню",
+          "tags": [
+            "for-company"
+          ]
         },
         {
           "id": "boards-morski-skarby",
@@ -632,7 +700,11 @@
           "menuSource": "Фото 7 · друковане меню",
           "description": "Соломка лосося, стружка кальмара, кільця восьминога, креветки, мідії, грінки.",
           "ingredients": "Соломка лосося, стружка кальмара, кільця восьминога, креветки, мідії, грінки.",
-          "ingredientsSource": "Фото 7 · друковане меню"
+          "ingredientsSource": "Фото 7 · друковане меню",
+          "tags": [
+            "for-company",
+            "beer-snack"
+          ]
         },
         {
           "id": "boards-doshka-krevetok",
@@ -643,7 +715,10 @@
           "aliases": [
             "Дошка креветок"
           ],
-          "menuSource": "Фото 7 · друковане меню"
+          "menuSource": "Фото 7 · друковане меню",
+          "tags": [
+            "for-company"
+          ]
         },
         {
           "id": "boards-asorti-shashlykiv",
@@ -651,7 +726,10 @@
           "name": "Асорті шашликів",
           "weight": "900/600/100 г",
           "price": "1450",
-          "menuSource": "Фото 7 · друковане меню"
+          "menuSource": "Фото 7 · друковане меню",
+          "tags": [
+            "for-company"
+          ]
         },
         {
           "id": "boards-asorti-krylets",
@@ -659,7 +737,11 @@
           "name": "Асорті крилець",
           "weight": "750/150 г",
           "price": "720",
-          "menuSource": "Фото 7 · друковане меню"
+          "menuSource": "Фото 7 · друковане меню",
+          "tags": [
+            "for-company",
+            "beer-snack"
+          ]
         }
       ]
     },
@@ -707,8 +789,8 @@
     },
     {
       "id": "grill",
-      "name": "Мангал меню",
-      "note": "м'ясо, риба, бургери",
+      "name": "Страви з мангалу",
+      "note": "шашлики, люля-кебаб, стейки та інші страви з вогню",
       "icon": "fire",
       "type": "food",
       "items": [
@@ -803,7 +885,10 @@
           "aliases": [
             "Лаваш з сиром Сулугуні"
           ],
-          "menuSource": "Фото 9 · друковане меню"
+          "menuSource": "Фото 9 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "grill-patelnia-zi-svynynoiu-ta-lysychkamy",
@@ -833,8 +918,31 @@
               "height": 1440
             }
           ],
-          "menuSource": "Фото 9 · друковане меню"
+          "menuSource": "Фото 9 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
+        {
+          "id": "grill-kare-iahniaty",
+          "name": "Каре ягняти",
+          "weight": "300 г",
+          "price": "360",
+          "type": "food",
+          "image": "img_0193",
+          "imgW": 960,
+          "imgH": 720,
+          "menuSource": "Фото 9 · друковане меню"
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "Основні страви з риби",
+      "note": "філе дорадо та лосося",
+      "icon": "fire",
+      "type": "food",
+      "items": [
         {
           "id": "grill-file-dorado-z-ovochamy",
           "name": "Філе дорадо з овочами",
@@ -853,18 +961,16 @@
           "imgW": 960,
           "imgH": 720,
           "menuSource": "Фото 9 · друковане меню"
-        },
-        {
-          "id": "grill-kare-iahniaty",
-          "name": "Каре ягняти",
-          "weight": "300 г",
-          "price": "360",
-          "type": "food",
-          "image": "img_0193",
-          "imgW": 960,
-          "imgH": 720,
-          "menuSource": "Фото 9 · друковане меню"
-        },
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Бургери",
+      "note": "класичні та фірмові бургери",
+      "icon": "fire",
+      "type": "food",
+      "items": [
         {
           "id": "grill-burher-horynych",
           "name": "Бургер «Горинич»",
@@ -957,7 +1063,10 @@
           "image": "img_7774",
           "imgW": 960,
           "imgH": 720,
-          "menuSource": "Фото 7 · друковане меню"
+          "menuSource": "Фото 7 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "sides-kartoplia-po-seliansky",
@@ -966,7 +1075,10 @@
           "price": "105",
           "type": "food",
           "image": null,
-          "menuSource": "Фото 7 · друковане меню"
+          "menuSource": "Фото 7 · друковане меню",
+          "tags": [
+            "beer-snack"
+          ]
         },
         {
           "id": "sides-ovochi-hryl",
@@ -1128,7 +1240,7 @@
     },
     {
       "id": "beer",
-      "name": "Пиво",
+      "name": "Пиво та сидр",
       "note": "кегове та пляшкове",
       "icon": "beer",
       "type": "drinks",
@@ -1280,47 +1392,11 @@
     },
     {
       "id": "wine",
-      "name": "Вина та ігристі",
+      "name": "Вина",
       "note": "150 мл / пляшка",
       "icon": "wine",
       "type": "drinks",
       "items": [
-        {
-          "id": "wine-prosecco-spumante",
-          "name": "Prosecco Spumante",
-          "description": "Напівсухе ігристе.",
-          "weight": "150 мл / пляшка",
-          "price": "180 / 900",
-          "type": "drinks",
-          "menuSource": "Фото 2 · друковане меню"
-        },
-        {
-          "id": "wine-san-mare-fragolino",
-          "name": "San Mare Fragolino",
-          "description": "Полуниця / персик.",
-          "weight": "пляшка",
-          "price": "450",
-          "type": "drinks",
-          "menuSource": "Фото 2 · друковане меню"
-        },
-        {
-          "id": "wine-marengo",
-          "name": "Marengo напівсолодке біле",
-          "description": "Напівсолодке біле ігристе.",
-          "weight": "пляшка",
-          "price": "350",
-          "type": "drinks",
-          "menuSource": "Фото 2 · друковане меню"
-        },
-        {
-          "id": "wine-marengo-brut",
-          "name": "Marengo брют біле",
-          "description": "Брют, біле ігристе.",
-          "type": "drinks",
-          "weight": "пляшка",
-          "price": "350",
-          "menuSource": "Фото 2 · друковане меню"
-        },
         {
           "id": "wine-geo-alazanska-dolyna-bile",
           "name": "Geo Алазанська долина біле",
@@ -1436,6 +1512,51 @@
           "weight": "пляшка",
           "price": "900",
           "type": "drinks",
+          "menuSource": "Фото 2 · друковане меню"
+        }
+      ]
+    },
+    {
+      "id": "sparkling-wine",
+      "name": "Ігристі вина",
+      "note": "просекко, фраголіно, Marengo",
+      "icon": "wine",
+      "type": "drinks",
+      "items": [
+        {
+          "id": "wine-prosecco-spumante",
+          "name": "Prosecco Spumante",
+          "description": "Напівсухе ігристе.",
+          "weight": "150 мл / пляшка",
+          "price": "180 / 900",
+          "type": "drinks",
+          "menuSource": "Фото 2 · друковане меню"
+        },
+        {
+          "id": "wine-san-mare-fragolino",
+          "name": "San Mare Fragolino",
+          "description": "Полуниця / персик.",
+          "weight": "пляшка",
+          "price": "450",
+          "type": "drinks",
+          "menuSource": "Фото 2 · друковане меню"
+        },
+        {
+          "id": "wine-marengo",
+          "name": "Marengo напівсолодке біле",
+          "description": "Напівсолодке біле ігристе.",
+          "weight": "пляшка",
+          "price": "350",
+          "type": "drinks",
+          "menuSource": "Фото 2 · друковане меню"
+        },
+        {
+          "id": "wine-marengo-brut",
+          "name": "Marengo брют біле",
+          "description": "Брют, біле ігристе.",
+          "type": "drinks",
+          "weight": "пляшка",
+          "price": "350",
           "menuSource": "Фото 2 · друковане меню"
         }
       ]
@@ -1629,21 +1750,12 @@
           "price": "140",
           "type": "drinks",
           "menuSource": "Фото 1 · друковане меню"
-        },
-        {
-          "id": "spirits-j-germeister",
-          "name": "Jägermeister",
-          "description": "Крижаний шот.",
-          "weight": "50 мл",
-          "price": "120",
-          "type": "drinks",
-          "menuSource": "Фото 1 · друковане меню"
         }
       ]
     },
     {
       "id": "whiskey",
-      "name": "Віскі та лікери",
+      "name": "Віскі",
       "note": "50 мл",
       "icon": "glass",
       "type": "drinks",
@@ -1746,7 +1858,16 @@
           "price": "160",
           "type": "drinks",
           "menuSource": "Фото 1 · друковане меню"
-        },
+        }
+      ]
+    },
+    {
+      "id": "liqueurs",
+      "name": "Лікери та дижестиви",
+      "note": "50 мл",
+      "icon": "glass",
+      "type": "drinks",
+      "items": [
         {
           "id": "whiskey-cointreau",
           "name": "Cointreau",
@@ -1791,13 +1912,22 @@
           "price": "100",
           "type": "drinks",
           "menuSource": "Фото 1 · друковане меню"
+        },
+        {
+          "id": "spirits-j-germeister",
+          "name": "Jägermeister",
+          "description": "Крижаний шот.",
+          "weight": "50 мл",
+          "price": "120",
+          "type": "drinks",
+          "menuSource": "Фото 1 · друковане меню"
         }
       ]
     },
     {
       "id": "infusions",
-      "name": "Фірмові наливки та напої",
-      "note": "наливки та безалкогольні напої",
+      "name": "Фірмові наливки",
+      "note": "50 мл",
       "icon": "flask",
       "type": "drinks",
       "items": [
@@ -1863,7 +1993,16 @@
           "price": "40",
           "type": "drinks",
           "menuSource": "Фото 1 · друковане меню"
-        },
+        }
+      ]
+    },
+    {
+      "id": "soft-drinks",
+      "name": "Безалкогольні напої",
+      "note": "вода, соки, узвар, лимонад та інші напої",
+      "icon": "flask",
+      "type": "drinks",
+      "items": [
         {
           "id": "infusions-kola-sprait",
           "name": "Кола / Спрайт",
@@ -1947,7 +2086,10 @@
           "type": "drinks",
           "ingredients": "Гамонді Пінк, просекко, содова.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-aperol-spritz",
@@ -1987,7 +2129,10 @@
           ],
           "ingredients": "Апероль, просекко, содова.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-pina-colada",
@@ -2009,7 +2154,10 @@
           ],
           "ingredients": "Ром Captain Morgan White, кокосовий лікер, сік ананасовий, свіжий ананас.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-bloody-mary",
@@ -2031,7 +2179,10 @@
           ],
           "ingredients": "Горілка Żubrówka Biała, сік томатний, ворчестерський соус, табаско, сіль, перець.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-clover-club",
@@ -2053,7 +2204,10 @@
           ],
           "ingredients": "Джин Gordon’s London Dry, малиновий топінг, фреш лайма, білок.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-french-75",
@@ -2075,7 +2229,10 @@
           ],
           "ingredients": "Джин Gordon’s London Dry, просекко, цукровий сироп, лимонний фреш.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-mai-tai",
@@ -2097,7 +2254,10 @@
           ],
           "ingredients": "Ром Captain Morgan White, Dark, трипл сек, орже, фреш лайма.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-negroni",
@@ -2119,7 +2279,10 @@
           ],
           "ingredients": "Червоний вермут, кампарі, джин Gordon’s London Dry.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-whiskey-sour",
@@ -2130,7 +2293,10 @@
           "type": "drinks",
           "ingredients": "Бурбон, лимонний фреш, цукровий сироп, білок.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-planters-punch",
@@ -2152,7 +2318,10 @@
           ],
           "ingredients": "Ром Captain Morgan White, Dark, трипл сек, гренадин, цукровий сироп, сік апельсину, сік ананасу, лимонний фреш, ангостура.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-mojito",
@@ -2174,7 +2343,10 @@
           ],
           "ingredients": "Ром Captain Morgan Gold, м’ята, спрайт, содова, тростинний цукор.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-long-island",
@@ -2196,7 +2368,10 @@
           ],
           "ingredients": "Горілка Козацька Рада, ром Captain Morgan White, джин Gordon’s London Dry, текіла Jarana Blanco, трипл сек, лимонний фреш, цукровий сироп, кола.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-skullduggery",
@@ -2218,7 +2393,10 @@
           ],
           "ingredients": "Ром Captain Morgan White, Dark, сік ананасовий, пюре маракуя, кокосовий крем.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-zombie",
@@ -2240,7 +2418,10 @@
           ],
           "ingredients": "Ром Captain Morgan White, Dark, Gold, золотий ром, фреш лайму, пюре маракуя, цукровий сироп.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-the-last-dragon",
@@ -2251,7 +2432,10 @@
           "type": "drinks",
           "ingredients": "Ром Captain Morgan White, лимонний фреш, пітахая, блю кюрасао.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-candy-cane",
@@ -2262,7 +2446,10 @@
           "type": "drinks",
           "ingredients": "Джин Gordon’s London Dry, лимонний фреш, сироп імбир, пітахая, содова.",
           "ingredientsSource": "Фото 4 · друковане меню",
-          "menuSource": "Фото 4 · друковане меню"
+          "menuSource": "Фото 4 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-chief-lapu-lapu",
@@ -2284,7 +2471,10 @@
           ],
           "ingredients": "Ром Captain Morgan White, Dark, сік апельсину, фреш лайму, цукровий сироп, пюре маракуя.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-espresso-martini",
@@ -2295,7 +2485,10 @@
           "type": "drinks",
           "ingredients": "Горілка Koskenkorva, еспресо, цукровий сироп, кавовий лікер.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-apple-sour",
@@ -2306,7 +2499,10 @@
           "type": "drinks",
           "ingredients": "Ром Captain Morgan, сік яблучний, пюре груші, фреш лимону, фоамін.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-devils-margarita",
@@ -2317,7 +2513,10 @@
           "type": "drinks",
           "ingredients": "Текіла Jarana Blanco, фреш лимону, пюре манго-ананас, вино червоне.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-jungle-cat",
@@ -2328,7 +2527,10 @@
           "type": "drinks",
           "ingredients": "Джин Gordon’s London Dry, кампарі, сік ананасовий, фреш лимону, пюре ананасу.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-east-hold",
@@ -2339,7 +2541,10 @@
           "type": "drinks",
           "ingredients": "Ром Captain Morgan White, апероль, сік ананасовий, фреш лимону, пюре манго-ананас.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-gorynych",
@@ -2350,7 +2555,10 @@
           "type": "drinks",
           "ingredients": "Текіла Jarana Blanco, ром Captain Morgan Dark, трипл сек, сік ананасовий, фреш лимону, мигдальний сироп, сироп вишні.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-dragon-colada",
@@ -2361,7 +2569,10 @@
           "type": "drinks",
           "ingredients": "Піско, пітахая, сироп імбирний та кокосовий, сік, вершки.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-dragon-lady",
@@ -2372,7 +2583,10 @@
           "type": "drinks",
           "ingredients": "Джин Gordon’s London Dry, пітахая, трипл сек, лимонний фреш, білок.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-dragon-garden",
@@ -2383,7 +2597,10 @@
           "type": "drinks",
           "ingredients": "Горілка Козацька Рада, лимонний фреш, пітахая, сироп бузини, швепс.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-festive-dragon",
@@ -2394,7 +2611,10 @@
           "type": "drinks",
           "ingredients": "Ром Captain Morgan White, лимонний фреш, трипл сек, пітахая.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-frost-dragon",
@@ -2405,7 +2625,10 @@
           "type": "drinks",
           "ingredients": "Текіла Jarana Blanco, лимонний фреш, сироп бузини, блю кюрасао.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "cocktails-pinkest-daiquiri",
@@ -2416,7 +2639,10 @@
           "type": "drinks",
           "ingredients": "Ром Captain Morgan White, лимонний фреш, пітахая.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         }
       ]
     },
@@ -2439,7 +2665,10 @@
           "menuSource": "Фото 3 · друковане меню",
           "description": "Джин Gordon’s Pink, згущене молоко, сироп полуниці, сік лимона, содова.",
           "ingredients": "Джин Gordon’s Pink, згущене молоко, сироп полуниці, сік лимона, содова.",
-          "ingredientsSource": "Фото 3 · друковане меню"
+          "ingredientsSource": "Фото 3 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "special-cocktails-moon-star",
@@ -2476,7 +2705,10 @@
           ],
           "image": "tg-7eac0819a14afb",
           "imgW": 664,
-          "imgH": 1440
+          "imgH": 1440,
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "special-cocktails-baby-blue",
@@ -2528,7 +2760,10 @@
           "menuSource": "Фото 3 · друковане меню",
           "description": "Коскенкорва Ваніла, сік лимона, лікер блю кюрасао, лікер персик, білок.",
           "ingredients": "Коскенкорва Ваніла, сік лимона, лікер блю кюрасао, лікер персик, білок.",
-          "ingredientsSource": "Фото 3 · друковане меню"
+          "ingredientsSource": "Фото 3 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "special-cocktails-mozi-moon",
@@ -2565,7 +2800,10 @@
           ],
           "image": "tg-9ae88df109fd18",
           "imgW": 960,
-          "imgH": 1280
+          "imgH": 1280,
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "special-cocktails-pink-barbie",
@@ -2579,7 +2817,10 @@
           "menuSource": "Фото 3 · друковане меню",
           "description": "Коскенкорва Ваніла, пюре пітахая, лікер персик, сік лимона, просекко.",
           "ingredients": "Коскенкорва Ваніла, пюре пітахая, лікер персик, сік лимона, просекко.",
-          "ingredientsSource": "Фото 3 · друковане меню"
+          "ingredientsSource": "Фото 3 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "special-cocktails-very-peri",
@@ -2643,7 +2884,10 @@
           "menuSource": "Фото 3 · друковане меню",
           "description": "Джин Gordon’s London Dry, лікер банан, лікер персик, сироп бузина, сік лимона, білок.",
           "ingredients": "Джин Gordon’s London Dry, лікер банан, лікер персик, сироп бузина, сік лимона, білок.",
-          "ingredientsSource": "Фото 3 · друковане меню"
+          "ingredientsSource": "Фото 3 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "special-cocktails-strawberry-kiss",
@@ -2654,7 +2898,10 @@
           "menuSource": "Фото 3 · друковане меню",
           "description": "Коскенкорва Ваніла, полуничний лікер, сік лимона, сік ананас.",
           "ingredients": "Коскенкорва Ваніла, полуничний лікер, сік лимона, сік ананас.",
-          "ingredientsSource": "Фото 3 · друковане меню"
+          "ingredientsSource": "Фото 3 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "special-cocktails-chili-sour",
@@ -2703,14 +2950,17 @@
           "menuSource": "Фото 3 · друковане меню",
           "description": "Бурбон, піско, сироп імбир, сік лимона, соус шрірача, білок.",
           "ingredients": "Бурбон, піско, сироп імбир, сік лимона, соус шрірача, білок.",
-          "ingredientsSource": "Фото 3 · друковане меню"
+          "ingredientsSource": "Фото 3 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         }
       ]
     },
     {
       "id": "coffee-tea",
-      "name": "Кава, чай та гарячі коктейлі",
-      "note": "гарячі напої",
+      "name": "Кава",
+      "note": "еспресо, американо, капучино, лате та допіо",
       "icon": "cup",
       "type": "drinks",
       "items": [
@@ -2753,7 +3003,16 @@
           "weight": "",
           "price": "65",
           "menuSource": "Фото 6 · друковане меню"
-        },
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "Чай",
+      "note": "домашній та заварний",
+      "icon": "cup",
+      "type": "drinks",
+      "items": [
         {
           "id": "coffee-tea-chai-domashnii-imbyr-laim-med",
           "name": "Чай домашній Імбир-Лайм-Мед",
@@ -2828,14 +3087,26 @@
           "weight": "",
           "price": "50",
           "menuSource": "Фото 6 · друковане меню"
-        },
+        }
+      ]
+    },
+    {
+      "id": "hot-cocktails",
+      "name": "Гарячі алкогольні коктейлі",
+      "note": "глінтвейни та фірмові гарячі коктейлі",
+      "icon": "cup",
+      "type": "drinks",
+      "items": [
         {
           "id": "coffee-tea-chervonyi-hlintvein",
           "name": "Червоний глінтвейн",
           "weight": "",
           "price": "90",
           "type": "drinks",
-          "menuSource": "Фото 6 · друковане меню"
+          "menuSource": "Фото 6 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "coffee-tea-bilyi-hlintvein",
@@ -2843,7 +3114,10 @@
           "weight": "",
           "price": "90",
           "type": "drinks",
-          "menuSource": "Фото 6 · друковане меню"
+          "menuSource": "Фото 6 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "coffee-tea-prazkyi-hlintvein",
@@ -2851,7 +3125,10 @@
           "weight": "",
           "price": "100",
           "type": "drinks",
-          "menuSource": "Фото 6 · друковане меню"
+          "menuSource": "Фото 6 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "coffee-tea-zoloto-drakona",
@@ -2859,7 +3136,10 @@
           "weight": "",
           "price": "100",
           "type": "drinks",
-          "menuSource": "Фото 6 · друковане меню"
+          "menuSource": "Фото 6 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "coffee-tea-medova-tsukerka",
@@ -2867,7 +3147,10 @@
           "weight": "",
           "price": "100",
           "type": "drinks",
-          "menuSource": "Фото 6 · друковане меню"
+          "menuSource": "Фото 6 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         }
       ]
     },
@@ -2928,7 +3211,10 @@
           "type": "drinks",
           "ingredients": "Карлсберг, кола, амаретто.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "beer-cocktails-naked-tits",
@@ -2939,7 +3225,10 @@
           "type": "drinks",
           "ingredients": "Сік яблучний, карлсберг, самбука, сироп гренадин.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "beer-cocktails-jam-bitter-sweet",
@@ -2950,7 +3239,10 @@
           "type": "drinks",
           "ingredients": "Віскі, кампарі, грейпфрутовий сік, кроненбург.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         },
         {
           "id": "beer-cocktails-aperol-mist",
@@ -2961,7 +3253,10 @@
           "type": "drinks",
           "ingredients": "Апероль, Ґрімберген нефільтрований, лимонний фреш.",
           "ingredientsSource": "Фото 5 · друковане меню",
-          "menuSource": "Фото 5 · друковане меню"
+          "menuSource": "Фото 5 · друковане меню",
+          "tags": [
+            "cocktail"
+          ]
         }
       ]
     },

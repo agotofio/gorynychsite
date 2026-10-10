@@ -144,19 +144,9 @@ function itemMatchesFilterValue(filter, category, item) {
   if (filter === "drinks") return category.type === "drinks";
   if (filter === "photo") return Boolean(item.image);
   if (filter === "under-200") return getPriceNumbers(item.price).some((price) => price <= 200);
-  if (filter === "for-company") {
-    return (
-      category.id === "boards" ||
-      /дошк|компан|набір|сет/i.test(
-        normalize([category.name, item.name, item.description].filter(Boolean).join(" "))
-      )
-    );
-  }
-  if (filter === "beer") {
-    return ["hot-snacks", "beer", "beer-cocktails"].includes(category.id) ||
-      /пивн|пив[ао]|сидр/i.test(normalize([category.name, item.name, item.description].join(" ")));
-  }
-  if (filter === "cocktails") return ["cocktails", "special-cocktails", "beer-cocktails"].includes(category.id);
+  if (filter === "for-company") return (item.tags || []).includes("for-company");
+  if (filter === "beer") return category.type === "food" && (item.tags || []).includes("beer-snack");
+  if (filter === "cocktails") return (item.tags || []).includes("cocktail");
   if (filter === "desserts") return category.id === "desserts";
   return true;
 }
