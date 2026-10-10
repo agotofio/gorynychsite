@@ -224,7 +224,7 @@ function setActiveNavButton(targetId) {
   // Only reveal a nav button inside a scrolling sidebar or mobile chip bar.
   // On tablets the category list is in normal page flow; scrolling it into
   // view would undo the user's jump to the actual menu section.
-  if (window.matchMedia("(max-width: 760px)").matches ||
+  if (window.matchMedia("(max-width: 1100px)").matches ||
       (navContainer && navContainer.scrollHeight > navContainer.clientHeight)) {
     [...els.sectionNav.querySelectorAll("button")]
       .find((button) => button.dataset.target === targetId)
@@ -445,7 +445,7 @@ function scrollToMenuSection(target, behavior = "auto") {
     const style = getComputedStyle(element);
     if (style.position !== 'sticky') return 0;
     // The desktop category sidebar does not overlap menu content.
-    if (element.classList.contains('section-nav') && window.innerWidth > 760) return 0;
+    if (element.classList.contains('section-nav') && window.innerWidth > 1100) return 0;
     return (parseFloat(style.top) || 0) + element.getBoundingClientRect().height;
   }));
   target.style.scrollMarginTop = `${stickyBottom + 14}px`;
