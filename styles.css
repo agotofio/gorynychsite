@@ -1210,6 +1210,10 @@ body.modal-open {
   .menu-layout {
     grid-template-columns: 1fr;
   }
+  .section-nav {
+    position: static;
+    max-height: none;
+  }
 }
 
 /* ---------- Responsive: mobile (<=760px) ---------- */
