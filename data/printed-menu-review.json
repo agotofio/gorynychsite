@@ -1546,5 +1546,22 @@
     "soups-okroshka",
     "grill-piv-kurcha",
     "coffee-tea-kakao"
+  ],
+  "legacyPhotoCorrections": [
+    {
+      "image": "img_6902",
+      "removedFrom": "salads-kobb-salat",
+      "reason": "Caesar photo does not match Cobb ingredients"
+    },
+    {
+      "image": "img_0193",
+      "removedFrom": "grill-rebertsia-svyniachi-na-vuhilli",
+      "keptOn": "grill-kare-iahniaty"
+    },
+    {
+      "image": "img_8908",
+      "removedFrom": "grill-file-dorado-z-ovochamy",
+      "movedTo": "unknown-legacy-whole-fish"
+    }
   ]
 }
