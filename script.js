@@ -83,7 +83,7 @@ function ensureHostedControls() {
 ensureHostedControls();
 
 let menu = null;
-let activeFilter = "all";
+let activeFilter = location.hash === "#unknown" ? "unknown" : "all";
 let searchTerm = "";
 let debounceHandle = null;
 let revealObserver = null;
@@ -217,7 +217,7 @@ function renderNav(categories) {
     button.addEventListener("click", () => {
       const target = document.getElementById(button.dataset.target);
       setActiveNavButton(button.dataset.target);
-      target?.scrollIntoView({ block: "start", behavior: prefersReducedMotion() ? "auto" : "smooth" });
+      scrollToMenuSection(target, prefersReducedMotion() ? "auto" : "smooth");
       history.replaceState(null, "", `#${button.dataset.target}`);
     });
   });
@@ -414,6 +414,20 @@ function prefersReducedMotion() {
   return window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 }
 
+function scrollToMenuSection(target, behavior = "auto") {
+  if (!target) return;
+  // Wrapped filters change the sticky header height on desktop.
+  const stickyBottom = Math.max(0, ...[...document.querySelectorAll('.topbar, .controls, .section-nav')].map(element => {
+    const style = getComputedStyle(element);
+    if (style.position !== 'sticky') return 0;
+    // The desktop category sidebar does not overlap menu content.
+    if (element.classList.contains('section-nav') && window.innerWidth > 760) return 0;
+    return (parseFloat(style.top) || 0) + element.getBoundingClientRect().height;
+  }));
+  target.style.scrollMarginTop = `${stickyBottom + 14}px`;
+  target.scrollIntoView({ block: 'start', behavior });
+}
+
 function setupRevealObserver() {
   revealObserver?.disconnect();
   const sectionEls = [...document.querySelectorAll(".menu-section")];
@@ -466,7 +480,7 @@ function applyHashOnRender(categories) {
   const target = document.getElementById(hash);
   if (target && categories.some((c) => c.id === hash)) {
     requestAnimationFrame(() => {
-      target.scrollIntoView({ block: "start", behavior: "auto" });
+      scrollToMenuSection(target);
       setActiveNavButton(hash);
     });
   }
@@ -476,7 +490,7 @@ window.addEventListener("hashchange", () => {
   const hash = getHashId();
   const target = hash && document.getElementById(hash);
   if (target) {
-    target.scrollIntoView({ block: "start", behavior: prefersReducedMotion() ? "auto" : "smooth" });
+    scrollToMenuSection(target, prefersReducedMotion() ? "auto" : "smooth");
     setActiveNavButton(hash);
   }
 });
@@ -818,6 +832,7 @@ async function init() {
   renderLoading();
   try {
     menu = await loadMenu();
+    syncQuickTabs();
     renderMenuUpdatedDate();
     renderSections();
     registerOfflineCache();
