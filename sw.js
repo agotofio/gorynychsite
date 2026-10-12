@@ -1,9 +1,11 @@
-const CACHE_NAME = "gorynych-menu-2026-10-10-printed-menu";
+const CACHE_NAME = "gorynych-menu-2026-10-12-background-final";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./script.js",
+  "./styles.css?v=20261012-background-final",
+  "./script.js?v=20261012-background-final",
   "./data/menu.json",
   "./manifest.webmanifest",
 ];

@@ -859,7 +859,7 @@ function updateBackToTop() {
 
 function registerOfflineCache() {
   if (!("serviceWorker" in navigator)) return;
-  navigator.serviceWorker.register("./sw.js").catch((error) => {
+  navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" }).catch((error) => {
     console.warn("Offline cache is unavailable:", error);
   });
 }
