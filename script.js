@@ -481,6 +481,10 @@ function setupNavHighlightObserver() {
   const sectionEls = [...document.querySelectorAll(".menu-section")];
   if (!sectionEls.length || !("IntersectionObserver" in window)) return;
 
+  const headerHeight = document.querySelector('.topbar')?.getBoundingClientRect().height || 0;
+  const bar = document.querySelector(window.innerWidth <= 1100 ? '.section-nav' : '.controls');
+  const barHeight = bar && getComputedStyle(bar).position === 'sticky' ? bar.getBoundingClientRect().height : 0;
+  const topInset = Math.min(Math.ceil(headerHeight + barHeight), Math.floor(window.innerHeight * 0.55));
   navObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -488,7 +492,7 @@ function setupNavHighlightObserver() {
         setActiveNavButton(entry.target.id);
       });
     },
-    { rootMargin: "-170px 0px -70% 0px", threshold: 0 }
+    { rootMargin: `-${topInset}px 0px -${Math.floor(window.innerHeight * 0.2)}px 0px`, threshold: 0 }
   );
 
   sectionEls.forEach((el) => navObserver.observe(el));
@@ -890,6 +894,10 @@ function updateHeaderHeight() {
   document.documentElement.style.setProperty("--menu-sticky-offset", `${headerHeight + controlsHeight + 14}px`);
 }
 updateHeaderHeight();
+window.addEventListener('resize', () => {
+  updateHeaderHeight();
+  setupNavHighlightObserver();
+});
 if ("ResizeObserver" in window) {
   const layoutObserver = new ResizeObserver(updateHeaderHeight);
   layoutObserver.observe(document.querySelector(".topbar"));

@@ -517,7 +517,7 @@ h1 {
 .section-nav button.active {
   color: #fff8eb;
   border-color: var(--ember-bright);
-  background: linear-gradient(135deg, var(--ember-bright), var(--ember));
+  background: linear-gradient(135deg, #aa4028, #8f3522);
 }
 
 .quick-tabs button:disabled {
@@ -612,7 +612,7 @@ h1 {
 }
 
 .section-nav button.active .nav-count {
-  color: rgba(255, 248, 235, 0.78);
+  color: #fff8eb;
 }
 
 .menu-stats {
@@ -769,6 +769,7 @@ h1 {
 }
 
 .item-body {
+  container-type: inline-size;
   display: grid;
   align-content: start;
   gap: 8px;
@@ -784,6 +785,7 @@ h1 {
 }
 
 .item-name {
+  overflow-wrap: anywhere;
   margin: 0;
   font-size: 1rem;
   font-weight: 700;
@@ -1102,6 +1104,7 @@ body.modal-open {
 }
 
 .modal-top h2 {
+  flex: 1 1 0;
   margin: 0;
   font-family: var(--serif);
   font-size: 1.5rem;
@@ -1378,7 +1381,7 @@ body.modal-open {
 
   .search-box input {
     min-height: 46px;
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .quick-tabs {
@@ -1682,4 +1685,29 @@ body.modal-open {
   position: sticky;
   float: right;
   margin: 10px 10px -50px 0;
+}
+
+/* A title and price must not compete for the same narrow text column. */
+@container (max-width: 210px) {
+  .item-top { grid-template-columns: minmax(0, 1fr); gap: 7px; }
+  .item-price { justify-self: start; max-width: 100%; }
+}
+.item-meta, .modal-top h2, .modal-desc, .modal-ingredients {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+@media (max-width: 280px) {
+  .topbar { flex-wrap: wrap; gap: 6px; }
+  .brand { width: 100%; }
+  .toplinks { width: 100%; justify-content: flex-start; }
+  .menu-item { grid-template-columns: minmax(0, 1fr); }
+  .item-photo { height: 120px; aspect-ratio: auto; }
+  .modal-top { flex-wrap: wrap; }
+}
+.modal-top .item-price { flex: 0 0 auto; }
+.item-price.pending-price {
+  min-width: 90px;
+  min-height: 32px;
+  height: auto;
+  padding: 6px 10px;
 }
