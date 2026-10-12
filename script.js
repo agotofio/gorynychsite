@@ -221,14 +221,21 @@ function setActiveNavButton(targetId) {
     el.setAttribute("aria-current", isActive ? "true" : "false");
   });
   const navContainer = els.sectionNav.closest(".section-nav");
-  // Only reveal a nav button inside a scrolling sidebar or mobile chip bar.
-  // On tablets the category list is in normal page flow; scrolling it into
-  // view would undo the user's jump to the actual menu section.
-  if (window.matchMedia("(max-width: 1100px)").matches ||
-      (navContainer && navContainer.scrollHeight > navContainer.clientHeight)) {
-    [...els.sectionNav.querySelectorAll("button")]
-      .find((button) => button.dataset.target === targetId)
-      ?.scrollIntoView({ block: "nearest", inline: "nearest" });
+  const button = [...els.sectionNav.querySelectorAll('button')]
+    .find(element => element.dataset.target === targetId);
+  if (!button || !navContainer) return;
+  // Scroll only the category list. scrollIntoView also moves the page and
+  // can cancel a long menu jump when the observer highlights a new section.
+  const horizontal = window.matchMedia('(max-width: 1100px)').matches;
+  const scroller = horizontal ? els.sectionNav : navContainer;
+  const bounds = scroller.getBoundingClientRect();
+  const rect = button.getBoundingClientRect();
+  if (horizontal) {
+    if (rect.left < bounds.left + 8) scroller.scrollLeft += rect.left - bounds.left - 8;
+    else if (rect.right > bounds.right - 8) scroller.scrollLeft += rect.right - bounds.right + 8;
+  } else {
+    if (rect.top < bounds.top + 8) scroller.scrollTop += rect.top - bounds.top - 8;
+    else if (rect.bottom > bounds.bottom - 8) scroller.scrollTop += rect.bottom - bounds.bottom + 8;
   }
 }
 
